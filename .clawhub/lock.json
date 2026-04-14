@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "skills": {
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1774425301455
+    },
+    "tavily-web-search-for-openclaw": {
+      "version": "1.0.0",
+      "installedAt": 1774429262079
+    },
+    "marketing-skills": {
+      "version": "0.1.2",
+      "installedAt": 1774421524140
+    },
+    "xiaohongshu-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1773675772676
+    },
+    "xhs": {
+      "version": "1.2.5",
+      "installedAt": 1773675773861
+    },
+    "xiaohongshutools": {
+      "version": "0.1.0",
+      "installedAt": 1774786083960
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1774659132850
+    },
+    "openai-whisper": {
+      "version": "1.0.0",
+      "installedAt": 1773675778393
+    },
+    "ontology": {
+      "version": "0.1.2",
+      "installedAt": 1773675779716
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1773675780803
+    },
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1773675782118
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1774513630571
+    },
+    "api-gateway": {
+      "version": "1.0.54",
+      "installedAt": 1773675785902
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1774513740182
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1774659301599
+    },
+    "nano-pdf": {
+      "version": "1.0.0",
+      "installedAt": 1773675790058
+    },
+    "nano-banana-pro": {
+      "version": "1.0.1",
+      "installedAt": 1773677130641
+    },
+    "baidu-search": {
+      "version": "1.1.0",
+      "installedAt": 1773675792543
+    },
+    "larry": {
+      "version": "1.0.0",
+      "installedAt": 1773676887091
+    },
+    "ai-ppt-generator": {
+      "version": "1.1.2",
+      "installedAt": 1773675795047
+    },
+    "mcporter": {
+      "version": "1.0.0",
+      "installedAt": 1773675796265
+    },
+    "self-improving-agent": {
+      "version": "3.0.6",
+      "installedAt": 1774433107822
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1774005842141
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1774484294418
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1774659361278
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1773675802762
+    },
+    "free-ride": {
+      "version": "1.0.4",
+      "installedAt": 1773675803894
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1774513712862
+    },
+    "byterover": {
+      "version": "1.2.2",
+      "installedAt": 1773675807383
+    },
+    "auto-updater": {
+      "version": "1.0.0",
+      "installedAt": 1773675808554
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1775331322619
+    },
+    "clawddocs": {
+      "version": "1.2.2",
+      "installedAt": 1773675811191
+    },
+    "youtube-watcher": {
+      "version": "1.0.0",
+      "installedAt": 1773675812288
+    },
+    "stock-analysis": {
+      "version": "6.2.0",
+      "installedAt": 1773675813623
+    },
+    "youtube-api-skill": {
+      "version": "1.0.3",
+      "installedAt": 1773675814877
+    },
+    "slack": {
+      "version": "1.0.0",
+      "installedAt": 1773675816077
+    },
+    "frontend-design": {
+      "version": "1.0.0",
+      "installedAt": 1773675817168
+    },
+    "elite-longterm-memory": {
+      "version": "1.2.3",
+      "installedAt": 1773675818397
+    },
+    "model-usage": {
+      "version": "1.0.0",
+      "installedAt": 1773675819597
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1773675820796
+    },
+    "trello": {
+      "version": "1.0.0",
+      "installedAt": 1773675821934
+    },
+    "moltguard": {
+      "version": "6.6.17",
+      "installedAt": 1773675823072
+    },
+    "openclaw-github-assistant": {
+      "version": "2.0.1",
+      "installedAt": 1773675824279
+    },
+    "sonoscli": {
+      "version": "1.0.0",
+      "installedAt": 1773675825466
+    },
+    "himalaya": {
+      "version": "1.0.0",
+      "installedAt": 1773675826784
+    },
+    "lnbits-with-qrcode": {
+      "version": "1.0.2",
+      "installedAt": 1773675828063
+    },
+    "humanizer-zh": {
+      "version": "1.0.0",
+      "installedAt": 1773676773983
+    },
+    "youtube-summary": {
+      "version": "1.0.3",
+      "installedAt": 1773676789430
+    },
+    "arxiv": {
+      "version": "1.0.4",
+      "installedAt": 1773676808666
+    },
+    "scholar": {
+      "version": "1.0.0",
+      "installedAt": 1773676813775
+    },
+    "news": {
+      "version": "",
+      "installedAt": 1773676815033
+    },
+    "tts": {
+      "version": "1.0.0",
+      "installedAt": 1773676816472
+    },
+    "audio-transcribe": {
+      "version": "1.0.0",
+      "installedAt": 1773676817871
+    },
+    "video-summary": {
+      "version": "1.6.4",
+      "installedAt": 1773676826710
+    },
+    "s3": {
+      "version": "1.0.0",
+      "installedAt": 1773676836291
+    },
+    "terminal": {
+      "version": "1.0.0",
+      "installedAt": 1773676858859
+    },
+    "nodejs": {
+      "version": "1.0.1",
+      "installedAt": 1773676860198
+    },
+    "scraper": {
+      "version": "1.0.0",
+      "installedAt": 1773676878943
+    },
+    "screenshot": {
+      "version": "1.0.1",
+      "installedAt": 1773676882740
+    },
+    "calendar": {
+      "version": "1.0.0",
+      "installedAt": 1773676891137
+    },
+    "gmail": {
+      "version": "1.0.6",
+      "installedAt": 1773676892294
+    },
+    "outlook-api": {
+      "version": "1.0.3",
+      "installedAt": 1773676893397
+    },
+    "docker": {
+      "version": "1.0.4",
+      "installedAt": 1773676903279
+    },
+    "python": {
+      "version": "1.0.0",
+      "installedAt": 1773676908081
+    },
+    "gitlab": {
+      "version": "1.0.0",
+      "installedAt": 1773676928420
+    },
+    "n8n": {
+      "version": "2.0.0",
+      "installedAt": 1773676936923
+    },
+    "pdf": {
+      "version": "0.1.0",
+      "installedAt": 1773676999629
+    },
+    "web-search": {
+      "version": "1.0.0",
+      "installedAt": 1773677009360
+    },
+    "memory-manager": {
+      "version": "1.0.0",
+      "installedAt": 1773677018806
+    },
+    "dropbox": {
+      "version": "1.0.0",
+      "installedAt": 1773677038653
+    },
+    "vscode": {
+      "version": "1.0.0",
+      "installedAt": 1773677062697
+    },
+    "subtitles": {
+      "version": "1.4.1",
+      "installedAt": 1773677080689
+    },
+    "tencent-docs": {
+      "version": "1.0.10",
+      "installedAt": 1773677087779
+    },
+    "presentation": {
+      "version": "1.0.1",
+      "installedAt": 1773677481225
+    },
+    "gamma-presentations": {
+      "version": "1.0.0",
+      "installedAt": 1773677486417
+    },
+    "nano-banana-pro-image-gen": {
+      "version": "0.1.1",
+      "installedAt": 1773679780557
+    },
+    "baoyu-post-to-weibo": {
+      "version": "1.76.1",
+      "installedAt": 1774208773175
+    },
+    "fonts": {
+      "version": "1.0.0",
+      "installedAt": 1774488251996
+    },
+    "openclaw-anything": {
+      "version": "2.0.0",
+      "installedAt": 1774513761524
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1774658595111
+    },
+    "cron": {
+      "version": "1.0.0",
+      "installedAt": 1774659124430
+    },
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1774733041415
+    },
+    "summarize-1-0-0": {
+      "version": "1.0.0",
+      "installedAt": 1775093711240
+    },
+    "tavily-search-1-0-0": {
+      "version": "1.0.0",
+      "installedAt": 1775093774196
+    },
+    "wechat-article-parser": {
+      "version": "1.0.1",
+      "installedAt": 1775224503732
+    },
+    "web-content-fetcher": {
+      "version": "1.0.1",
+      "installedAt": 1775224922567
+    },
+    "summarize-pro": {
+      "version": "1.0.0",
+      "installedAt": 1775331305954
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "skills": {
+    "humanizer-zh": {
+      "name": "humanizer-zh",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=humanizer-zh",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "youtube-summary": {
+      "name": "YouTube Summary",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=youtube-summary",
+      "source": "skillhub",
+      "version": "1.0.3"
+    },
+    "arxiv": {
+      "name": "arXiv Research Assistant",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=arxiv",
+      "source": "skillhub",
+      "version": "1.0.4"
+    },
+    "scholar": {
+      "name": "Scholar",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=scholar",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "news": {
+      "name": "news",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=news",
+      "source": "skillhub",
+      "version": ""
+    },
+    "tts": {
+      "name": "Tts",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=tts",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "audio-transcribe": {
+      "name": "Audio Transcribe",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=audio-transcribe",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "video-summary": {
+      "name": "Video Summary",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=video-summary",
+      "source": "skillhub",
+      "version": "1.6.4"
+    },
+    "s3": {
+      "name": "S3",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=s3",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "terminal": {
+      "name": "Terminal",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=terminal",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "nodejs": {
+      "name": "NodeJS",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=nodejs",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "scraper": {
+      "name": "Scraper",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=scraper",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "screenshot": {
+      "name": "Screenshot",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=screenshot",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "larry": {
+      "name": "Larry",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=larry",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "calendar": {
+      "name": "Calendar",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=calendar",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "gmail": {
+      "name": "Gmail",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=gmail",
+      "source": "skillhub",
+      "version": "1.0.6"
+    },
+    "outlook-api": {
+      "name": "Outlook",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=outlook-api",
+      "source": "skillhub",
+      "version": "1.0.3"
+    },
+    "docker": {
+      "name": "Docker",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=docker",
+      "source": "skillhub",
+      "version": "1.0.4"
+    },
+    "python": {
+      "name": "Python Coding Guidelines",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=python",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "gitlab": {
+      "name": "GitLab",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=gitlab",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "n8n": {
+      "name": "n8n",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=n8n",
+      "source": "skillhub",
+      "version": "2.0.0"
+    },
+    "pdf": {
+      "name": "Pdf",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=pdf",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "web-search": {
+      "name": "Web Search",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=web-search",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "memory-manager": {
+      "name": "Memory Manager",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=memory-manager",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "dropbox": {
+      "name": "Dropbox Manager",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=dropbox",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "vscode": {
+      "name": "VSCode",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=vscode",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "subtitles": {
+      "name": "Subtitles",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=subtitles",
+      "source": "skillhub",
+      "version": "1.4.1"
+    },
+    "tencent-docs": {
+      "name": "腾讯文档 tencent-docs",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=tencent-docs",
+      "source": "skillhub",
+      "version": "1.0.10"
+    },
+    "nano-banana-pro": {
+      "name": "Nano Banana Pro",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=nano-banana-pro",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "presentation": {
+      "name": "Presentation",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=presentation",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "gamma-presentations": {
+      "name": "Gamma Presentations",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=gamma-presentations",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "nano-banana-pro-image-gen": {
+      "name": "Nano Banana Pro Image Gen(基于API易代理站)",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=nano-banana-pro-image-gen",
+      "source": "skillhub",
+      "version": "0.1.1"
+    },
+    "proactive-agent": {
+      "name": "Proactive Agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=proactive-agent",
+      "source": "skillhub",
+      "version": "3.1.0"
+    },
+    "fonts": {
+      "name": "Fonts",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=fonts",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "agent-browser": {
+      "name": "Agent Browser",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=agent-browser",
+      "source": "skillhub",
+      "version": "0.2.0"
+    },
+    "brave-search": {
+      "name": "Brave Search",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=brave-search",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "weather": {
+      "name": "Weather",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=weather",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "openclaw-anything": {
+      "name": "Comprehensive skill for installing, configuring, and managing the OpenClaw ecosystem (Gateway, Channels, Models, Automation, Nodes, and Deployment)",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=openclaw-anything",
+      "source": "skillhub",
+      "version": "2.0.0"
+    }
+  }
+}

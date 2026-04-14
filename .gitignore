@@ -1,0 +1,40 @@
+# Large dependencies
+node_modules/
+MediaCrawler/
+Star-Office-UI-master/
+
+# Build artifacts
+*.pptx
+*.xlsx
+*.docx
+
+# Images (keep PNGs needed for agent operations)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+!chrome-ext.png
+!page*.png
+
+# Logs and temp
+*.log
+install_log.txt
+clawhub_retry*.json
+clawhub_install_status
+tmp*.png
+tmp*.jpg
+
+# Embedded git repos (cloned inside skills/)
+skills/agent-playbook/
+skills/anthropics-skills/
+skills/baoyu-skills/
+skills/marketingskills/
+skills/skills/
+skills/tavily-skills/
+
+# Lock files (reinstallable)
+package-lock.json
+
+# OS
+.DS_Store

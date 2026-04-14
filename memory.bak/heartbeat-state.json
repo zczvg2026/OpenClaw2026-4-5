@@ -1,0 +1,9 @@
+{
+  "lastChecks": {
+    "email": 1743636000,
+    "calendar": 1743636000
+  },
+  "lastHeartbeat": "2026-04-03T00:36:00+08:00",
+  "evalLastChecked": "2026-04-03",
+  "note": "email/calendar not configured in gog — needs GOG_ACCOUNT setup"
+}

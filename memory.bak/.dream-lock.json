@@ -1,0 +1,6 @@
+{
+  "lastDreamedAt": "2026-04-05T06:41:00+08:00",
+  "lastExtractedAt": "2026-04-05T20:45:00+08:00",
+  "dreaming": false,
+  "note": "2026-04-05 20:45 extract完成：从飞书会话(lastExtractedAt 20:15后)提取2条，均为cron噪音任务(4541798a)的后续确认：①已成功禁用；②Gateway故障时cron disable会静默失败，需验证jobs.json。"
+}
