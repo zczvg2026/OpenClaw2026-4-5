@@ -18,6 +18,14 @@ scope: private
 - isolated session 没有聊天上下文，不知道发给谁
 - 需飞书推送的 cron → 必须 main session + systemEvent 触发，不能用 isolated
 
+## 【抖音内容获取】浏览器法（2026-04-19 已验证）
+1. 启动 openclaw 浏览器（`browser action=start profile=openclaw`）
+2. 用已登录抖音的 Chrome 的 `browser action=open url=` 打开抖音页面 → **无需登录，直接读取内容**
+3. 用 `screenshot` 截图 → `image` 工具提取文字
+4. 关键：openclaw 浏览器会复用本机 Chrome 的登录态（cookies），无需在 openclaw browser 里重新扫码登录
+5. 注意：抖音视频页面是 JS 渲染，直接 curl 抓 HTML 拿不到内容，**必须走浏览器法**
+
+
 ## 【确认】口播脚本风格：更轻松（2026-04-04）
 - 默认轻松口语，少用"我是xxx创始人"，多用真实感受
 - 太正式会拉开距离感，轻松风格更适合个人IP视频号
@@ -88,3 +96,9 @@ scope: private
 ## 飞书文档公网分享（2026-04-04）
 - API：`PATCH https://open.feishu.cn/open-apis/drive/v1/permissions/{token}/public?type=docx`
 - Body：`{"link_share_entity": "anyone_readable"}`；`type` 放 query 参数，不放 body
+
+## 【纠正】遇到技术障碍不要打退堂鼓（Johnson 2026-04-19 强调）
+- 遇到障碍不要立刻说"做不到"，要列出至少3个替代方案同时试
+- 技术卡点：先想"还能怎么绕"，最后才向用户求助
+- 浏览器开了 ≠ 任务完成，要等待加载+截图+分析页面文字
+- 抖音/微信等登录墙：搜同内容跨平台版本（B站/公众号/小红书），或直接向用户要关键内容

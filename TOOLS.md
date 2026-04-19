@@ -99,3 +99,12 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## 抖音内容获取（2026-04-19 已验证）
+- **场景**：收到抖音链接，需抓取视频内容/字幕/文案
+- **方法**：
+  1. `browser action=start profile=openclaw` 启动 openclaw 浏览器（已继承本机 Chrome 登录态）
+  2. `browser action=open url=<抖音URL>` 打开视频页面
+  3. `screenshot` 截图 → 用 `image` 工具提取画面文字
+  4. 配合 `browser action=act` 做点击/滚动等交互
+- **注意**：抖音 JS 渲染，直接 curl 抓 HTML 无效，必须走浏览器法
