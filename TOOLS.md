@@ -13,12 +13,23 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
-## 工具调用规则
+## 工具调用规则（2026-04-20 更新）
 
-**生图顺序（2026-04-11 更新）**
-1. **Gemini（免费）** → `GOOGLE_API_KEY=AIzaSyBJDaSJww8i8PBsrJmF622OYxr_ws0mj-Y`，支持图片生成（gemini-2.0-flash-preview 等）
-2. **APIYI** → OpenAI 兼容格式，`https://api.apiyi.com/v1/images/generations`，Key：`sk-gu92HpVrxnNs4ygy61DeDd03Dd3045C785FeD1B1B63c0a16`（支持 DALL-E-3、GPT-image、Flux 等）
-3. **MeiGen（mcporter）** → 备选，`MEIGEN_API_TOKEN=meigen_sk_eUsJyeGZrcZ9e9R2gx5JQNjZLdhiKeeG`，注意：需海外网络
+**生图顺序（优先用 MiniMax Coding Plan）**
+1. **MiniMax Coding Plan（mmx CLI）** → 已配 API Key，直接调用 `mmx image generate`
+2. **Gemini（免费）** → `GOOGLE_API_KEY=AIzaSyBJDaSJww8i8PBsrJmF622OYxr_ws0mj-Y`
+3. **APIYI** → 备选
+4. **MeiGen（mcporter）** → 备选
+
+**mmx CLI 安装和使用（2026-04-20 确认）**
+- 安装：`npm install -g mmx-cli`
+- 首次配置：`export MINIMAX_API_KEY=<coding-plan-key>` 后运行 `mmx quota show`
+- 配置文件：`~/.mmx/config.json`（自动保存）
+- 生成图片：`mmx image generate "提示词"`
+- 生成视频：`mmx video generate "提示词"`
+- 生成音乐：`mmx music generate "提示词"`
+- 网页搜索：`mmx search query "关键词"`
+- 图像理解：`mmx vision describe <图片路径>`
 
 **生图 → MeiGen（mcporter）**
 - 命令：`mcporter call creative-toolkit.generate_image -p "{prompt}" -a {比例} -r {分辨率}`
