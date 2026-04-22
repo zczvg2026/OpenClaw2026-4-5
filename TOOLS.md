@@ -47,6 +47,10 @@ Things like:
 - 说"今天/明天/昨天"之前，**必须**执行 `date` 命令或 `session_status` 验证实际时间
 - metadata 里的时间只代表"消息发送时间"，不代表 AI 的真实感知时间
 
+## ⚠️ 升级规则（2026-04-22）
+- OpenClaw 升级必须经过 Johnson 确认，不能自己跑
+- 当前版本：2026.4.9（通过 npm 安装，LaunchAgent：`ai.openclaw.gateway.new`）
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
