@@ -53,14 +53,19 @@ scope: team
 **待确认**：目标（品牌/招募/转化）、规模、时间、预算、场地
 **负责人**：Johnson
 
-## GitHub 备份仓库（2026-04-04 21:05 ✅ 已推送）
-- **仓库**：git@github.com:zczvg2026/OpenClaw.git
-- **内容**：1052 个文件（workspace 全量备份）
-- **SSH Key**：`/Users/mac/.ssh/id_ed25519.pub`（Johnson 已添加到 GitHub 账户）
-- **首次推送**：21:05 CST 完成（首次push需拉取远程README后rebase再push）
-- **自动备份**：每天 21:00 CST 执行 `/Users/mac/.openclaw/auto-backup.sh` → commit + push
-- **备份脚本**：`/Users/mac/.openclaw/auto-backup.sh`（解决 crontab 里 $(date) 预计算问题）
+## GitHub 备份仓库（2026-04-04 21:05 ✅，2026-06-03 修复链路）
+- **新仓库**：`git@github.com:zczvg2026/OpenClaw2026-4-5.git`（**2026-06-03 旧仓库 OpenClaw 已迁移至此**）
+- **⚠️ 旧仓库地址已失效**：GitHub push 会返回 `This repository moved` 提示，remote 必须用新地址
+- **内容**：workspace 全量备份（.git 154M+）
+- **SSH Key**：`/Users/mac/.ssh/id_ed25519.pub`（已验证认证：Hi zczvg2026!）
+- **手动验证**：2026-06-03 用 `git push --force-with-lease` 推送本地最新 commit `870f560` 成功（force 是因本地/远程分叉26个commit）
+- **自动备份 cron**：`每日GitHub备份 21:00`（id: 5ce031a2-ebe6-47fa-9a50-f2ade7d1deb8）
+- **备份脚本**：`/Users/mac/.openclaw/auto-backup.sh`
 - **日志**：`/Users/mac/.openclaw/logs/backup.log`
+- **踩坑记录**：
+  - git user.name/user.email 必须配好（脚本开头有校验）
+  - remote 必须指向新仓库 `OpenClaw2026-4-5`，旧 `OpenClaw` 已迁移
+  - 本地/远程分叉时不能 rebase（太多冲突），备份场景直接 force push 本地最新版本即可
 
 ## 龙虾 SOP + 能力表（2026-04-04 20:34 ✅）
 - **SOP文档**（飞书文档）：https://feishu.cn/docx/MJ6hdhTbMo0ooex8BhfcdcRrnBg
