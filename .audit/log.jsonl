@@ -1,0 +1,2 @@
+{"ts":"2026-05-03T03:46:00+08:00","type":"decision","channel":"feishu","summary":"从Qclaw架构学完，落地4个能力：checkpoint/游标/config热更新/审计日志","tokens":0}
+{"ts":"2026-05-03T03:48:00+08:00","type":"decision","channel":"feishu","summary":"落地Qclaw审计日志+文件追踪系统","tokens":0}

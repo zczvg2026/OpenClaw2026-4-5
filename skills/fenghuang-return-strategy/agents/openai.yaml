@@ -1,0 +1,7 @@
+interface:
+  display_name: "凤凰归巢策略"
+  short_description: "支持竞价盘中盘后三模式的短线交易筛选技能包"
+  default_prompt: "使用 $fenghuang-return-strategy 根据我提供的市场与个股数据按 pre_market、intraday 或 post_market 三模式执行凤凰归巢策略筛选与决策输出。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,12 @@
+{
+  "sourceProfile": "dzx",
+  "sourceMailbox": "hanpaas.dzx@claw.163.com",
+  "targetEmail": "19108027463@163.com",
+  "targetSubject": "太擎发票周报",
+  "stateFile": "/Users/mac/.openclaw/workspace/invoices/state.json",
+  "invoiceDir": "/Users/mac/.openclaw/workspace/invoices/attachments",
+  "scanSchedule": "mon 09:00",
+  "senderFilter": {
+    "keywords": ["发票", "电子发票", "电子票据", "invoice", "开票"]
+  }
+}

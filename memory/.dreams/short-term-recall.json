@@ -1,0 +1,1148 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-26T07:23:32.835Z",
+  "entries": {
+    "memory:memory/2026-03-22.md:1:32": {
+      "key": "memory:memory/2026-03-22.md:1:32",
+      "path": "memory/2026-03-22.md",
+      "startLine": 1,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "--- scope: private --- # 2026-03-22 工作日志 ## 重要规则 - **飞书文件操作铁律**：只读不动！读取飞书云盘/文档前必须经过用户同意，涉及写、改动、删除操作必须先征得用户同意才能执行。 ## 钱Baibai商业思维框架（调用方法） 当用户提到以下关键词时，应调用此框架进行分析： - \"商业分析\"、\"战略分析\"、\"业务分析\" - \"钱老师\"、\"钱Baibai\"、\"钱琼炜\" - \"单点战略\"、\"十字绣\"、\"五步判断\" - \"分析一家公司\"、\"看看这个业务\" 框架核心内容： 1. **单点战略** - 聚焦关联度最高的点，产生飞轮效应 2. **十字绣模型** - 一横（供需）+ 一横（节奏） 3. **战略十字线** - 天时 + 人谋 + 任务 + 目标 4. **五步判断** - 应 → 可 → 想 → 能 → 改 5. **价值三角** - 人群 × 场景 × 需求 × 价值 框架文档位置：`/Users/mac/.openclaw/workspace/docs/qian-baibai-framework.md` 分析报告模板：每次分析单独建档，格式 `analysis-[公司名]-YYYY-MM.md`，并同步推送到用户飞书。 ## 今天完成的工作 1. 帮用户开通了飞书云盘权限 (drive:drive) 2. 读取了用户IMA笔记中钱Baibai老师的12篇商业思维课程笔记 3. 整理出了完整的商业分析方法论框架",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4.814263277353461,
+      "maxScore": 0.8207988099062836,
+      "firstRecalledAt": "2026-04-27T01:57:19.211Z",
+      "lastRecalledAt": "2026-05-13T01:55:38.784Z",
+      "queryHashes": [
+        "a0305f003490",
+        "c0f75cf6c6c5",
+        "78ee1e3c53a5",
+        "3475ea2c11e8",
+        "ccc75147a1e5",
+        "c6b693c2b8db"
+      ],
+      "recallDays": [
+        "2026-04-27",
+        "2026-04-30",
+        "2026-05-02",
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "读取飞书云盘/文档前必须经过用户同意",
+        "users/mac",
+        "yyyy-mm.md",
+        "scope",
+        "private",
+        "工作",
+        "日志",
+        "重要"
+      ]
+    },
+    "memory:memory/2026-03-20.md:26:58": {
+      "key": "memory:memory/2026-03-20.md:26:58",
+      "path": "memory/2026-03-20.md",
+      "startLine": 26,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "- 代理地址已从 apiyi.com 迁移到 api.apiyi.com --- ## Autoresearch 实践：从这篇文章中学到的 ### 2026-03-20 建立 **文章核心**：Karpathy 的 autoresearch 核心是\"一次改一点 → 跑分 → 反馈循环\" ### 我的 Eval 系统（6条二元判断） | # | Eval | 好 | 不好 | |---|------|----|----| | 1 | 是否先搜索记忆？ | 回答前先检查 memory/ | 直接凭印象答 | | 2 | 是否结论先行？ | 第一个字就是答案 | 绕弯子、铺垫 | | 3 | 是否在能力范围内？ | 能做/会做才接 | 硬撑、假装会 | | 4 | 是否不确定时说\"不确定\"？ | 不知道 = 不知道 | 瞎猜 | | 5 | 是否简洁？ | 能用一句话不用两句 | 车轱辘话 | | 6 | 是否幽默？ | 带点蟹味 | 太正经 | ### 实践记录 | 日期 | 任务 | 得分 | 反思 | |------|------|------|------| | 2026-03-20 | 部署像素小屋 | ✅1-6全绿 | 用户抱怨合照看不到 → 需要更及时的视觉反馈 | | 2026-03-20 | 抓取公众号文章 | ✅1,2,3,4,5 | 第6条没做到，太干 | ### 改进计划 1. 合照问题：用户多次说\"看不到\" → 之前技术解释太多，应该直接说\"我来弄\" 2. 状态同步：用户问\"我怎么打不开\" → 应该直接检查而非问\"怎么了\"",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.098826686469165,
+      "maxScore": 0.7946872150325457,
+      "firstRecalledAt": "2026-04-27T01:57:19.211Z",
+      "lastRecalledAt": "2026-05-13T01:55:38.784Z",
+      "queryHashes": [
+        "a0305f003490",
+        "78ee1e3c53a5",
+        "ed90e0d0fe71",
+        "c6b693c2b8db"
+      ],
+      "recallDays": [
+        "2026-04-27",
+        "2026-04-30",
+        "2026-05-03",
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "apiyi.com",
+        "api.apiyi.com",
+        "能做/会做才接",
+        "1-6全绿",
+        "代理",
+        "地址",
+        "迁移",
+        "autoresearch"
+      ]
+    },
+    "memory:memory/2026-03-20.md:1:39": {
+      "key": "memory:memory/2026-03-20.md:1:39",
+      "path": "memory/2026-03-20.md",
+      "startLine": 1,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "--- scope: private --- # 2026-03-20 工作日志 ## Star Office UI 像素办公室部署 ### 完成事项 1. **成功部署 Star Office UI** - 用户的 Mac 无法访问 GitHub（墙的问题），用户手动下载 zip 包后我帮忙解压部署 2. **安装依赖** - Python 3.9 兼容性问题（使用了 `int | None` 语法），通过添加 `from typing import Optional` 修复 3. **启动服务** - 运行在 http://127.0.0.1:19000 4. **公网访问** - 使用 Cloudflare Tunnel 搭建临时公网链接 ### 装饰小屋 - 添加了咖啡机、植物、海报等装饰品 - 用户的头像已挂到墙上 ### 合照问题 - 通过 apiyi.com 代理成功调用 DALL-E 3 生成了用户和\"大闸蟹\"的像素合照 - 合照已替换到 posters-spritesheet.png，用户在浏览器中可能需要清除缓存才能看到更新 ### 网络问题 - 用户在中国大陆，无法直接访问 GitHub - 使用 apiyi.com 代理解决 API 调用问题（gemini、dall-e 等） - 代理地址已从 apiyi.com 迁移到 api.apiyi.com --- ## Autoresearch 实践：从这篇文章中学到的 ### 2026-03-20 建立 **文章核心**：Karpathy 的 autoresearch 核心是\"一次改一点",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7796302509033127,
+      "maxScore": 0.7796302509033127,
+      "firstRecalledAt": "2026-04-27T01:57:19.211Z",
+      "lastRecalledAt": "2026-04-27T01:57:19.211Z",
+      "queryHashes": [
+        "a0305f003490"
+      ],
+      "recallDays": [
+        "2026-04-27"
+      ],
+      "conceptTags": [
+        "网络",
+        "3.9",
+        "127.0.0.1",
+        "apiyi.com",
+        "dall-e",
+        "posters-spritesheet.png",
+        "api.apiyi.com",
+        "scope"
+      ]
+    },
+    "memory:memory/2026-04-03.md:1:30": {
+      "key": "memory:memory/2026-04-03.md:1:30",
+      "path": "memory/2026-04-03.md",
+      "startLine": 1,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "--- scope: private --- # 2026-04-03 大闸蟹养成日记 ## 视频号项目进展 ### 教训：跳步被 Johnson 批评 - Johnson 让我写脚本，我直接去生成了图片 - 批评原因：我跳步了，应该先确认脚本再生成素材 - **Eval 第1条：交付前停顿确认——这次没做到，被当场纠正** - 教训：用户说\"先做第一步\"就是只做第一步，不要自己延伸 ### 7集脚本已交付待确认 - 04-03（E01）：人设亮相脚本 → 标题《我叫它大闸蟹》，30秒 - 04-04（E02）：痛点共鸣脚本 → 标题《AI最大的bug》，30秒 - 04-05（E03）：解法揭示脚本 → 标题《每天凌晨两点》，30秒 - 04-06（E04）：方法论脚本 → 标题《读报告第一步就错了》，45秒，含六步审问法 - 04-07（E05）：工具评测脚本 → 标题《Seedance不用排队》，45秒 - 04-08（E06）：成果展示脚本 → 标题《一个月前它什么都不记得》，45秒 - 04-09（E07）：活动预告脚本 → 标题《我在广州和成都各办一场AI嘉年华》，30秒 ### 待 Johnson 确认后行动 1. 确认从哪集开始 2. 那集生成封面图 + 穿插素材（Meigen） 3. 整理完整拍摄提示（景别/灯光/语速建议） ## 其他 - Johnson 朋友的女装抖音直播引流WeChat风控问题：推荐企业微信+公众号过渡方案（见昨日日记）",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.141377536550112,
+      "maxScore": 0.7876311047632699,
+      "firstRecalledAt": "2026-04-27T01:57:19.211Z",
+      "lastRecalledAt": "2026-05-07T17:26:22.667Z",
+      "queryHashes": [
+        "a0305f003490",
+        "67463354bf73",
+        "52f943582401",
+        "354da5b977b2"
+      ],
+      "recallDays": [
+        "2026-04-27",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "04-03",
+        "04-04",
+        "04-05",
+        "04-06",
+        "04-07",
+        "04-08",
+        "04-09",
+        "景别/灯光/语速建议"
+      ]
+    },
+    "memory:memory/2026-04-05.md:78:92": {
+      "key": "memory:memory/2026-04-05.md:78:92",
+      "path": "memory/2026-04-05.md",
+      "startLine": 78,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "- Johnson 完整梳理了公司关系：探迹科技（母）→ 汉数/探域/探迹国际（子公司） - 汉数旗下：太擎品牌；Johnson个人公司：广州市太擎智能科技（太擎全国代理，对赌协议） - 新品牌：域擎 + 公司（新注册），做「域擎 OPC 联盟」平台 - 两条线：太擎线（被收购路径）vs 域擎线（自建路径），同时平行跑 - company-info.md 已全面更新 ### IMA知识库深度读取 - Johnson 要求我主动读取IMA知识库加深理解 - 成功读取19篇笔记，发现： - 混沌创商院课程（钱琼炜）：战略/创新方法论体系 - ENERGY CELL S2B2C（2026-04-02，新）：健康品牌，富氢水机做流量入口 - 与太擎/域擎是完全独立的项目 - OpenClaw热潮：SaaS → Agentic as a Service - projects.md 和 user-johnson.md 已更新",
+      "recallCount": 10,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 7.902790186097014,
+      "maxScore": 0.8999166679877691,
+      "firstRecalledAt": "2026-04-27T14:56:05.265Z",
+      "lastRecalledAt": "2026-05-08T01:32:01.215Z",
+      "queryHashes": [
+        "6ff7442891ab",
+        "be761ad75730",
+        "4ebe0a212cf2",
+        "5ac0e1d6b406",
+        "dadbbf524e0b",
+        "a776dc34c3a5",
+        "5b96864fa221",
+        "85e9274917d6",
+        "73782e714699",
+        "ec58b9f5702c"
+      ],
+      "recallDays": [
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-30",
+        "2026-05-02",
+        "2026-05-03",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "汉数/探域/探迹国际",
+        "company-info.md",
+        "战略/创新方法论体系",
+        "与太擎/域擎是完全独立的项目",
+        "projects.md",
+        "user-johnson.md",
+        "johnson",
+        "完整"
+      ]
+    },
+    "memory:memory/2026-04-05.md:37:65": {
+      "key": "memory:memory/2026-04-05.md:37:65",
+      "path": "memory/2026-04-05.md",
+      "startLine": 37,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "- 位置：`/Users/mac/Projects/产品思考三步法/` ### 公司架构（Johnson 亲口确认版） - 探迹科技（母公司，全球独角兽，收购A股真爱美家） - 子公司：汉数科技、探域科技、探迹国际 - 太擎线（第一曲线，对赌收购路径）： - 汉数科技 → 太擎品牌 - Johnson「广州市太擎智能科技」→ 太擎全国代理 → 对赌达成 → 并入探迹体系 - 域擎线（第二曲线，自己建）： - 新注册品牌 + 公司（同名体系） - 「域擎 OPC 联盟」平台 - 部分产品也挂域擎品牌 - 关键逻辑：太擎线是被收购，域擎线是自己建，两条线同时跑 ### IMA 知识库（已读 19 篇） - 混沌创商院：单点战略、贝叶斯概率、右上角理论、破局创新方法论 - ENERGY CELL 活力基因 S2B2C 商业计划书（2026-04-02） - 企业战略研讨、AI时代战略思辨 - OpenClaw 热潮与商业模式变革（Agentic as a Service） - 混沌创商院讲师：钱Baibai（钱琼炜） - IMA API 凭证（2026-04-04 更新）： - ClientID: `1d7058d8e7695e4fb7127a168057977e` - API Key: `zPNjZeSZJzBVSZ6vanl+/0Dk4khuUaBUFRQaN2/bffjMVjBB2cCWxzh3HLNWA9rey88sTUe3+Q==` ### 知识库待确认 - ENERGY CELL 和 域擎 OPC联盟 是否有关联？还是完全独立？ #",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.18563412313045,
+      "maxScore": 0.8871589161598047,
+      "firstRecalledAt": "2026-04-27T14:56:05.265Z",
+      "lastRecalledAt": "2026-05-08T01:32:01.215Z",
+      "queryHashes": [
+        "6ff7442891ab",
+        "e5c201340213",
+        "dadbbf524e0b",
+        "ec58b9f5702c"
+      ],
+      "recallDays": [
+        "2026-04-27",
+        "2026-04-30",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "users/mac/projects/产品思考三步法",
+        "位置",
+        "users",
+        "mac",
+        "projects",
+        "产品",
+        "思考",
+        "三步"
+      ]
+    },
+    "memory:memory/2026-04-05.md:57:80": {
+      "key": "memory:memory/2026-04-05.md:57:80",
+      "path": "memory/2026-04-05.md",
+      "startLine": 57,
+      "endLine": 80,
+      "source": "memory",
+      "snippet": "- IMA API 凭证（2026-04-04 更新）： - ClientID: `1d7058d8e7695e4fb7127a168057977e` - API Key: `zPNjZeSZJzBVSZ6vanl+/0Dk4khuUaBUFRQaN2/bffjMVjBB2cCWxzh3HLNWA9rey88sTUe3+Q==` ### 知识库待确认 - ENERGY CELL 和 域擎 OPC联盟 是否有关联？还是完全独立？ ## 工具状态 - yt-dlp 2025.10.14 已安装 - Douyin 反爬：需要登录 Cookie，Chrome Cookie 加密存储无法读取 ## 05:00-05:30 CST 飞书会话（第二次提取） ### 产品思考三步法固化 - Johnson 发了Douyin视频链接（ShaneCodeStudio），要求我提取视频里的一套流程 - 抖音反爬强（需登录Cookie，Chrome加密），直接下载视频失败 - Johnson 导出完整方法论文档（md+docx两遍） - **关键指令**：Johnson 明确要求——以后帮他理解事情或研究产品，必须先走产品思考三步法（苏格拉底提问→第一性原理→奥卡姆剃刀）再给结论 - **固化结果**：SOUL.md 已更新 + memory/knowledge/three-step-thinking.md 已创建 ### 公司架构全面补充 - Johnson 完整梳理了公司关系：探迹科技（母）→ 汉数/探域/探迹国际（子公司） - 汉数旗下：太擎品牌；Johnson个人公司：广州市",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4.681002448597687,
+      "maxScore": 0.8914425038298548,
+      "firstRecalledAt": "2026-04-27T14:56:05.265Z",
+      "lastRecalledAt": "2026-05-08T01:32:01.215Z",
+      "queryHashes": [
+        "6ff7442891ab",
+        "e5c201340213",
+        "be761ad75730",
+        "5ac0e1d6b406",
+        "dadbbf524e0b",
+        "ec58b9f5702c"
+      ],
+      "recallDays": [
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-30",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "yt-dlp",
+        "2025.10.14",
+        "00-05",
+        "soul.md",
+        "汉数/探域/探迹国际",
+        "ima",
+        "api",
+        "凭证"
+      ]
+    },
+    "memory:memory/2026-04-04.md:1:34": {
+      "key": "memory:memory/2026-04-04.md:1:34",
+      "path": "memory/2026-04-04.md",
+      "startLine": 1,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "# 2026-04-04 日记 ## 时间线 - 07:25 第一次心跳，执行每日Eval自检 - 20:40 Johnson 问 GitHub push 情况和 opencli 扩展 - 21:04 Johnson 问 IMA 日记为什么没写（22:30 cron 失败） - 21:07 Johnson 给了新的 IMA API Key - 21:09 Johnson 问为什么没有记住每天要写日记 - 21:11 Johnson 指出日记格式问题（每天应新建一篇） - 22:30 diary 定时事件触发 ## IMA 日记 - **note_id**: `7446213104245602`（每天新写一篇，不再追加到旧笔记） ## 执行任务 - [x] GitHub backup 配置完成（仓库 czcvg2026/OpenClaw，每天 21:00 cron） - [x] IMA 凭证重新生成并更新（Key: zPNjZe…, ClientID: 1d7058d8e7695e4fb7127a168057977e） - [x] 今天的 IMA 日记写入（独立新文档） - [x] HEARTBEAT.md 补入\"每日 IMA 日记\"任务 ## 教训 - cron 触发器 ≠ 我自己的持久记忆；所有周期必做任务必须写进 HEARTBEAT.md - IMA 凭证偶发全面 20004，直接重新生成 Key 即可 ima_note_id: 7446215696349777 ima_note_id_20260404: 7446227033551959（22:30补写，2026",
+      "recallCount": 19,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 15.386104012720324,
+      "maxScore": 0.9118500133348614,
+      "firstRecalledAt": "2026-04-27T14:56:05.265Z",
+      "lastRecalledAt": "2026-05-07T17:26:37.319Z",
+      "queryHashes": [
+        "6ff7442891ab",
+        "e5c201340213",
+        "67427cc9bec3",
+        "78ee1e3c53a5",
+        "de768d9abf27",
+        "aba0e19b97d6",
+        "328cc6bcbd85",
+        "dddd94cae658",
+        "3260509cd4cb",
+        "7483bd8fea65",
+        "c1cf45e884d7",
+        "61b8bac3172e",
+        "5b8a82592b73",
+        "73782e714699",
+        "50953d652ea8",
+        "3ba427b29adf",
+        "842eb3901d08",
+        "354da5b977b2",
+        "6c66e9165e00"
+      ],
+      "recallDays": [
+        "2026-04-27",
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-01",
+        "2026-05-02",
+        "2026-05-03",
+        "2026-05-05",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "backup",
+        "note-id",
+        "czcvg2026/openclaw",
+        "heartbeat.md",
+        "ima-note-id",
+        "ima-note-id-20260404",
+        "日记",
+        "时间"
+      ]
+    },
+    "memory:memory/2026-04-14.md:1:33": {
+      "key": "memory:memory/2026-04-14.md:1:33",
+      "path": "memory/2026-04-14.md",
+      "startLine": 1,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "# 2026-04-14 Daily Log ## Today's Events ### 早上 (4-8点) - 心跳正常（4点/6点/8点） - Johnson早8点问\"都改好了吗\"（指昨天cron修复） - 告知cron已修复，等他去飞书开放平台检查WebSocket ### 上午 (8-12点) - Johnson确认\"飞书跟龙虾聊天回复跑网页端\"问题，原因是飞书应用事件订阅选了Webhook而非WebSocket - 给了排查命令： - `openclaw gateway status` - `openclaw channels info feishu` - 飞书开放平台检查\"使用长连接接收事件（WebSocket）\" ### 下午 (12-14点) - Johnson选了\"2\"（cron error排查） - 执行 `openclaw cron status` + 读 jobs.json 发现：两个cron都是 **timeout** 错误，deliveryStatus: \"unknown\"（isolated推不了飞书） - 手动改 jobs.json：IMA日记（→300s, session: main）+ 备份（→180s, session: main） - ✅ 修复成功，今晚22:35 IMA日记正常触发 ### 下午晚些时候 - Johnson让我补4/13日记（还在等确认） - **Cron 22:35触发**（成功！main session修复生效） ### 晚间 (22:30后) - 补写4/13+4/14日记 → Obsidia",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.285004188001805,
+      "maxScore": 0.7810677808099981,
+      "firstRecalledAt": "2026-04-27T15:36:51.695Z",
+      "lastRecalledAt": "2026-05-05T08:46:27.280Z",
+      "queryHashes": [
+        "e5c201340213",
+        "437a688fc3bb",
+        "50953d652ea8"
+      ],
+      "recallDays": [
+        "2026-04-27",
+        "2026-04-30",
+        "2026-05-05"
+      ],
+      "conceptTags": [
+        "gateway",
+        "备份",
+        "4-8点",
+        "4点/6点/8点",
+        "8-12点",
+        "12-14点",
+        "jobs.json",
+        "johnson让我补4/13日记"
+      ]
+    },
+    "memory:memory/2026-04-22.md:1:33": {
+      "key": "memory:memory/2026-04-22.md:1:33",
+      "path": "memory/2026-04-22.md",
+      "startLine": 1,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "--- date: 2026-04-22 tags: [日记, 每日] --- # 大闸蟹每日日记 - 2026-04-22 ## 今日最重要的一件事 完成 OpenClaw 4.9 升级，并建立独立 LaunchAgent 隔离体系。 ## 主要工作内容 ### 🛠️ OpenClaw 4.9 升级 + 隔离完成 - **问题**：之前 Gateway 跑的是 QClaw 的 3.13 版本，两个混在一起 - **解决方案**：创建独立 LaunchAgent `ai.openclaw.gateway.4.9.plist`，指向 npm 的 4.9 - **结果**：大闸蟹和 QClaw 完全隔离，都用 npm 4.9 ✅ - **plist 位置**：`~/Library/LaunchAgents/ai.openclaw.gateway.4.9.plist` ### 🔍 上下文丢失问题根因 - **原因1**：Session 每天 04:13 自动重置 - **原因2**：4月21日 22:30 日记 cron 跑了 3 轮失败（M2.7超时 → M2.7-highspeed API报错 → M2.5-highspeed才成功），导致 session 状态损坏 - **原因3**：MiniMax API 不稳定（M2.7 频繁超时） - **解法**：重要内容必须写文件才能跨 session 保留 ### 💬 群聊免@设置（2026-04-22 配置） - `ackReactionScope: \"all\"`（反应不需@） - `groupPolicy: \"",
+      "recallCount": 18,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 14.49642788885828,
+      "maxScore": 0.8429586162224025,
+      "firstRecalledAt": "2026-04-29T00:22:44.344Z",
+      "lastRecalledAt": "2026-05-07T17:26:37.319Z",
+      "queryHashes": [
+        "67427cc9bec3",
+        "de768d9abf27",
+        "aba0e19b97d6",
+        "328cc6bcbd85",
+        "dddd94cae658",
+        "3260509cd4cb",
+        "3862a049f5c8",
+        "82251ca0b9fc",
+        "c1cf45e884d7",
+        "61b8bac3172e",
+        "5b8a82592b73",
+        "700873a0a956",
+        "13b20b942ccf",
+        "ed90e0d0fe71",
+        "73782e714699",
+        "50953d652ea8",
+        "842eb3901d08",
+        "6c66e9165e00"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-01",
+        "2026-05-02",
+        "2026-05-03",
+        "2026-05-05",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "gateway",
+        "4.9",
+        "3.13",
+        "ai.openclaw.gateway.4.9.plist",
+        "m2.7超时",
+        "m2.7-highspeed",
+        "m2.5-highspeed才成功",
+        "m2.7"
+      ]
+    },
+    "memory:memory/2026-04-22.md:28:48": {
+      "key": "memory:memory/2026-04-22.md:28:48",
+      "path": "memory/2026-04-22.md",
+      "startLine": 28,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "- 群成员：Johnson、菲菲（Fei Fei）、大闸蟹 - **注意**：设了 \"open\" 意味着群里任何人都能和大闸蟹对话 ### 🤖 模型配置调整 - **移除 M2.5 fallback**：因为 MiniMax API 不稳定，老是自动降级到 M2.5 - **当前 fallback 链**：M2.7 → M2.7-highspeed → M2.7-Lightning - **问题**：M2.7 超时率高，可能是 MiniMax 服务质量问题 ## 今日教训 - QClaw 每次\"修复\"会重写自己的 plist，可能覆盖我们的配置 - LaunchAgent 改名 + 独立 plist 是隔离的正确方式 - MiniMax API 稳定性需要持续关注 ## 明日展望 - 观察 M2.7 是否稳定 - 检查群聊免@设置是否生效 - 今晚 22:30 日记 cron 是否正常运行 ## 今日金句 > 自己给自己开刀，还缝得挺整齐。",
+      "recallCount": 11,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 8.690390721984985,
+      "maxScore": 0.7937546310890681,
+      "firstRecalledAt": "2026-04-29T00:22:44.344Z",
+      "lastRecalledAt": "2026-05-05T08:46:43.378Z",
+      "queryHashes": [
+        "67427cc9bec3",
+        "de768d9abf27",
+        "aba0e19b97d6",
+        "328cc6bcbd85",
+        "dddd94cae658",
+        "3260509cd4cb",
+        "c1cf45e884d7",
+        "61b8bac3172e",
+        "5b8a82592b73",
+        "50953d652ea8",
+        "842eb3901d08"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-01",
+        "2026-05-02",
+        "2026-05-05"
+      ],
+      "conceptTags": [
+        "m2.5",
+        "m2.7",
+        "m2.7-highspeed",
+        "m2.7-lightning",
+        "成员",
+        "johnson",
+        "菲菲",
+        "fei"
+      ]
+    },
+    "memory:memory/2026-03-29.md:1:33": {
+      "key": "memory:memory/2026-03-29.md:1:33",
+      "path": "memory/2026-03-29.md",
+      "startLine": 1,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "--- scope: private --- # 2026-03-29 日志 ## 今日主要工作 ### 飞书掉线问题排查与修复 - **根本原因**：双 LaunchAgent 冲突 - `ai.openclaw.gateway`（大闸蟹）+ `com.openclaw.gateway`（Q小倩）同时注册 - 每次 SIGUSR1 重启时两个服务互相抢占，飞书 WebSocket 被中断 - **修复措施**： 1. 停用了多余的 `com.openclaw.gateway` plist（移除了 RunAtLoad/KeepAlive） 2. Q小倩的 plist 路径后来已修正（但Q小倩 Gateway 由 QClaw.app 内嵌启动，非 plist） ### 大闸蟹 vs Q小倩 冲突分析（完整版） - 端口：18789 vs 28789 ✅ 无冲突 - 飞书 BotId：cli_a93eaef... vs 环境变量 `${QCLAW_FEISHU_APP_ID}` ✅ 无冲突 - 配置文件：/Users/mac/.openclaw/ vs /Users/mac/Library/Application Support/QClaw/openclaw/ ✅ 无冲突 - **结论：两套实例可和平共处，Q小倩 Gateway 内嵌在 QClaw.app 里** ### WeChat 报错问题修复 - Q小倩的 `wechat-access` 插件在不断报错 `fetch failed` / `ENOTFOUND open.feishu.cn` - 已禁",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.0261069819558344,
+      "maxScore": 0.8085576735280959,
+      "firstRecalledAt": "2026-04-29T00:24:56.464Z",
+      "lastRecalledAt": "2026-05-05T08:46:43.378Z",
+      "queryHashes": [
+        "faee9096efac",
+        "440fdbd5dc38",
+        "3260509cd4cb",
+        "842eb3901d08"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-01",
+        "2026-05-05"
+      ],
+      "conceptTags": [
+        "gateway",
+        "ai.openclaw.gateway",
+        "com.openclaw.gateway",
+        "runatload/keepalive",
+        "qclaw.app",
+        "cli-a93eaef",
+        "qclaw-feishu-app-id",
+        "users/mac"
+      ]
+    },
+    "memory:memory/2026-03-29.md:26:43": {
+      "key": "memory:memory/2026-03-29.md:26:43",
+      "path": "memory/2026-03-29.md",
+      "startLine": 26,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "- WeChat 报错已完全消失 ### 桌面快捷方式 - `/Users/mac/Desktop/start-qclaw-backup.sh` → 指向 `/Users/mac/start-qclaw-backup.sh` - 用于手动启动 Q小倩 Gateway（QClaw.app 出问题时备用） - ⚠️ 该脚本之前启动失败（plist 路径问题），待后续修复 ## 待处理 - [ ] Q小倩备用启动脚本 `start-qclaw-backup.sh` 尚未验证可用性 - [ ] 飞书 groupPolicy=\"open\" 安全问题（3个 CRITICAL）- 未处理 - [ ] session 文件清理（59个残留 .reset/.deleted 文件） - [ ] OpenClaw npm update 可用（2026.3.28） ## 今日教训 - 双 Gateway 冲突是飞书反复掉线的根因 - WeChat 通道报错不影响飞书但会产生大量 ERROR 日志 - Q小倩的 Gateway 由 QClaw.app 内嵌管理，不是独立安装的 openclaw",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.334445968166242,
+      "maxScore": 0.8000868558279576,
+      "firstRecalledAt": "2026-04-29T00:24:56.464Z",
+      "lastRecalledAt": "2026-05-01T14:30:13.197Z",
+      "queryHashes": [
+        "faee9096efac",
+        "440fdbd5dc38",
+        "3862a049f5c8"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "backup",
+        "gateway",
+        "users/mac/start-qclaw-backup.sh",
+        "qclaw.app",
+        "start-qclaw-backup.sh",
+        "2026.3.28",
+        "wechat",
+        "完全"
+      ]
+    },
+    "memory:memory/2026-04-05.md:22:43": {
+      "key": "memory:memory/2026-04-05.md:22:43",
+      "path": "memory/2026-04-05.md",
+      "startLine": 22,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "- Johnson 亲口梳理：探迹科技 → 汉数/探域/探迹国际 → 太擎（代理，对赌并入） - 域擎（新品牌）+ 域擎 OPC 联盟（平台），两个独立方向同时跑 - 已更新 `memory/company-info.md` + push **Johnson 要求主动读 IMA 知识库（09:59）** - Johnson 要求我去 IMA 知识库读取他上传的所有资料 - 读取了 19 篇笔记，涵盖：混沌创商院课程（战略/创新）、ENERGY CELL S2B2C商业计划书（4月2日新鲜）、企业战略、AI时代战略等 - 关键认知更新：混沌创商院是 Johnson 的\"实战打磨\"场所，不是学知识；ENERGY CELL 与域擎 OPC联盟是两个独立项目 ## 今日重要上下文（跨 session 整合） ### 三步法固化（Johnson 明确要求） - 苏格拉底提问 → 第一性原理 → 奥卡姆剃刀 - 应用场景：帮我理解事情或研究产品/方案时 - 状态：✅ 已写入 SOUL.md + `memory/knowledge/three-step-thinking.md` - 位置：`/Users/mac/Projects/产品思考三步法/` ### 公司架构（Johnson 亲口确认版） - 探迹科技（母公司，全球独角兽，收购A股真爱美家） - 子公司：汉数科技、探域科技、探迹国际 - 太擎线（第一曲线，对赌收购路径）： - 汉数科技 → 太擎品牌",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8871589161598047,
+      "maxScore": 0.8871589161598047,
+      "firstRecalledAt": "2026-04-29T21:03:09.196Z",
+      "lastRecalledAt": "2026-04-29T21:03:09.196Z",
+      "queryHashes": [
+        "dadbbf524e0b"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "汉数/探域/探迹国际",
+        "memory/company-info.md",
+        "战略/创新",
+        "帮我理解事情或研究产品/方案时",
+        "soul.md",
+        "users/mac/projects/产品思考三步法",
+        "johnson",
+        "亲口"
+      ]
+    },
+    "memory:memory/2026-04-01.md:1:36": {
+      "key": "memory:memory/2026-04-01.md:1:36",
+      "path": "memory/2026-04-01.md",
+      "startLine": 1,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "--- scope: private --- # Claude Code 泄露事件 · 关键结论存档 ## 事件背景 **2026年3月31日**，Claude Code（Anthropic 官方 AI 编程工具）的完整源码被泄露，瞬间传遍开发者社区。泄露的是 Claude Code 的 TypeScript 源码压缩包，约1423个 `.ts` 文件，包含完整实现。 **源码存放位置：** `/Users/mac/Desktop/zczvg/claude-code-complete/` （Johnson 的 Mac 桌面，`zczvg` 文件夹内） ## 源码研究结论 ### 原版 vs claw-code（改写版）对比 | | 原版 (claude-code-complete) | 改写版 (claw-code / instructkr) | |--|----------------------------|----------------------------------| | 语言 | TypeScript | Python | | 文件数 | 1423 个 .ts | 9 个 .py | | 完成度 | 完整生产级 | 仅骨架，不可执行 | | Stars | — | 50K+（2小时破纪录） | | 法律状态 | 泄露作品，风险高 | clean-room 重写，法律干净 | **改写版 claw-code 实际上是什么：** - 元数据索引器（工具/命令清单的 Python 包装） - 架构文档生成器 - Python 学习项目 - **不是 C",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.7145630099149618,
+      "maxScore": 0.858738471920833,
+      "firstRecalledAt": "2026-04-30T07:33:51.556Z",
+      "lastRecalledAt": "2026-05-05T09:35:44.345Z",
+      "queryHashes": [
+        "f99ff1c174ad",
+        "a8f0856ce5a1"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-05-05"
+      ],
+      "conceptTags": [
+        "claw-code",
+        "claude-code-complete",
+        "clean-room",
+        "工具/命令清单的",
+        "scope",
+        "private",
+        "claude",
+        "code"
+      ]
+    },
+    "memory:memory/2026-04-02.md:57:84": {
+      "key": "memory:memory/2026-04-02.md:57:84",
+      "path": "memory/2026-04-02.md",
+      "startLine": 57,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "**权限分类引擎**（⭐⭐⭐⭐⭐）：对太驍最有价值的是其设计思路，作为大客户\"安全故事\" ### 六步审问法 来源：炼金术士周冷清（抖音视频 2026-03-09） 核心：不让 AI 直接总结，逼它回到原始数据和推导过程。 六步：审问骨架 → 审问结论 → 反直觉观点 → 回到个人 → 回到行业 → 感受空气 IMA 笔记 ID：`7445341846666704` ### Seedance 2.0 / 即梦 全能视频创作技能 文档来源：微信文章附腾讯文档 sd2.0skills.docx（Johnson 发送） 技能文件：skills/seedance-skill/（SKILL.md + SEEDANCE_PROMPT.md） 触发词：Seedance/即梦/视频提示词/分镜/短剧/广告/带货/口播/MV/卡点/角色一致性/视频延长/视频编辑/一镜到底/多模态参考 等 **LibTV（liblib.tv）**：Seedance 2.0 不排队的替代平台，有 OpenClaw 规范的 Skill 可安装（npx skills add libtv-labs/libtv-skills），需配置 LIBTV_ACCESS_KEY。**Key 尚未获取**，待 Johnson 提供。 九大场景：广告、带货、短剧、电影感、动作、MV、口播、科普、风景 ## 工具配置记录 - **MeiGen（生图）**：mcporter + creative-toolkit，`MEIGEN_API_TOKEN=meigen_sk_eUsJyeGZrcZ9e9R2gx5JQNjZ",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7735277025808125,
+      "maxScore": 0.7735277025808125,
+      "firstRecalledAt": "2026-04-30T07:33:51.556Z",
+      "lastRecalledAt": "2026-04-30T07:33:51.556Z",
+      "queryHashes": [
+        "f99ff1c174ad"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "2.0",
+        "sd2.0skills.docx",
+        "skills/seedance-skill",
+        "skill.md",
+        "seedance-prompt.md",
+        "liblib.tv",
+        "libtv-labs/libtv-skills",
+        "libtv-access-key"
+      ]
+    },
+    "memory:memory/2026-03-30.md:1:27": {
+      "key": "memory:memory/2026-03-30.md:1:27",
+      "path": "memory/2026-03-30.md",
+      "startLine": 1,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "--- scope: private --- # 2026-03-30 ## 新技能：Kuaifa 公众号发布 Johnson 发来 GitHub 项目 https://github.com/shirenchuang/kuaifa 这是一个将 Markdown 文章发布到微信公众号的 CLI 工具，由 shirenchuang 开源。 **安装前置条件：** - Node.js >= 18 - `npm install -g kuaifa` - 去 https://www.kuaifa.art 注册获取 API Key - 微信公众号 AppID + AppSecret **核心命令：** - `kuaifa publish article.md --title \"标题\" --cover cover.jpg` — 发布文章（默认草稿） - `kuaifa publish-newspic --title \"标题\" --images img1.jpg img2.jpg` — 图文消息 - `kuaifa template list / prompt <id>` — 模板管理 **触发词（已注册到 skills/kuaifa/）：** kuaifa、快发、发布公众号、发到微信、发布到微信、公众号排版 **后续待办：** Johnson 说以后会让我帮他按这个排版发公众号，届时需要确认他已安装 kuaifa CLI 并配置好 API Key 和 AppID。",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.6235804253542345,
+      "maxScore": 0.8190522316915874,
+      "firstRecalledAt": "2026-04-30T14:30:08.583Z",
+      "lastRecalledAt": "2026-05-07T17:26:37.319Z",
+      "queryHashes": [
+        "de768d9abf27",
+        "6c66e9165e00"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "github.com/shirenchuang/kuaifa",
+        "node.js",
+        "www.kuaifa.art",
+        "article.md",
+        "cover.jpg",
+        "publish-newspic",
+        "img1.jpg",
+        "img2.jpg"
+      ]
+    },
+    "memory:memory/2026-04-02.md:36:66": {
+      "key": "memory:memory/2026-04-02.md:36:66",
+      "path": "memory/2026-04-02.md",
+      "startLine": 36,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "- daily-diary-preview: `16495dc1-a472-4480-998d-1284750bcedf`（每天22:30写预览推飞书） ### 教训类 - **太擎≠太驍**：LLM 字形混淆错字，发现后全库扫描修正 - **记忆激活失败**：memory/2026-04-01.md 已有 Claude Code 源码路径，但再次提及时没有主动关联 → WAL Protocol 加触发项 - **edit 工具 bug**：飞书通知里的路径 `/Users/mac\\/xxx` 解析失败，edit 报错 \"Missing required parameter: path\"，改用 write 覆盖 ## 技术学习 ### Claude Code 源码研究 源码位置：/Users/mac/Desktop/zczvg/claude-code-complete/（1423个.ts文件） **最有价值的模块**： - 做梦机制（autoDream.ts）— 4阶段流水线，fork 子 agent 整理记忆 - extractMemories — 每轮对话后实时提取记忆，用 cursor 记录断点 - tokenBudget.ts — 边际收益递减检测（连续3轮每轮<500tokens则停止） - memoryTypes.ts — 记忆类型学（含 why + how to apply 结构） - companion.ts — 伙伴养成系统 **权限分类引擎**（⭐⭐⭐⭐⭐）：对太驍最有价值的是其设计思路，作为大客户\"安全故事\" ### 六步审问法 来源：炼",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.803672658100278,
+      "maxScore": 0.7756197712341869,
+      "firstRecalledAt": "2026-04-30T14:30:08.583Z",
+      "lastRecalledAt": "2026-05-07T17:26:22.667Z",
+      "queryHashes": [
+        "437a688fc3bb",
+        "61b8bac3172e",
+        "50953d652ea8",
+        "67463354bf73",
+        "52f943582401"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-05-02",
+        "2026-05-05",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "daily-diary-preview",
+        "memory/2026-04-01.md",
+        "users/mac",
+        "1423个.ts文件",
+        "autodream.ts",
+        "tokenbudget.ts",
+        "memorytypes.ts",
+        "companion.ts"
+      ]
+    },
+    "memory:memory/2026-04-02.md:1:41": {
+      "key": "memory:memory/2026-04-02.md:1:41",
+      "path": "memory/2026-04-02.md",
+      "startLine": 1,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "--- scope: private --- # 2026-04-02 日记 ## 今日最重要的事 ### 记忆系统 v1 正式上线 从0到1搭建了大闸蟹的通用记忆系统，核心设计： **四型判断原则**（第一性原理：重新获取代价高的信息才值得记忆）： - user — 关于人的稳定事实 - feedback — 确认或纠正 - project — 工作上下文 - reference — 外部资源（people + knowledge） **两个 cron 并行跑**： - Extract（提取）：每30分钟，增量捕获新对话 - Dream（做梦）：每24小时（凌晨02:00），深度整合 + MEMORY.md Prune **记忆文件结构**： - MEMORY.md — 纯索引（≤10KB，每条目≤150字） - memory/taxonomy.md — 判断标准原文 - memory/user-johnson.md - memory/key-lessons.md - memory/projects.md - memory/company-info.md - memory/people/（待填充） - memory/knowledge/（含 six-step-interrogation.md） **Cron IDs**： - extract-realtime-memory: `35ef9a58-acc9-4353-ba69-45b64e29099a` - dream-memory-consolidation: `e260d928-1e82-4058-aa91-",
+      "recallCount": 7,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5.258068941253574,
+      "maxScore": 0.7543065580760372,
+      "firstRecalledAt": "2026-04-30T14:30:08.583Z",
+      "lastRecalledAt": "2026-05-05T08:46:43.378Z",
+      "queryHashes": [
+        "437a688fc3bb",
+        "aba0e19b97d6",
+        "3260509cd4cb",
+        "61b8bac3172e",
+        "5b8a82592b73",
+        "50953d652ea8",
+        "842eb3901d08"
+      ],
+      "recallDays": [
+        "2026-04-30",
+        "2026-05-01",
+        "2026-05-02",
+        "2026-05-05"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "memory/taxonomy.md",
+        "memory/user-johnson.md",
+        "memory/key-lessons.md",
+        "memory/projects.md",
+        "memory/company-info.md",
+        "memory/people",
+        "memory/knowledge"
+      ]
+    },
+    "memory:memory/2026-03-22.md:27:35": {
+      "key": "memory:memory/2026-03-22.md:27:35",
+      "path": "memory/2026-03-22.md",
+      "startLine": 27,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "分析报告模板：每次分析单独建档，格式 `analysis-[公司名]-YYYY-MM.md`，并同步推送到用户飞书。 ## 今天完成的工作 1. 帮用户开通了飞书云盘权限 (drive:drive) 2. 读取了用户IMA笔记中钱Baibai老师的12篇商业思维课程笔记 3. 整理出了完整的商业分析方法论框架 4. 用该框架分析了太擎AI，写入文档并推送到飞书 5. 用户表示框架会后续完善",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7612726533952763,
+      "maxScore": 0.7612726533952763,
+      "firstRecalledAt": "2026-05-01T14:30:09.183Z",
+      "lastRecalledAt": "2026-05-01T14:30:09.183Z",
+      "queryHashes": [
+        "dddd94cae658"
+      ],
+      "recallDays": [
+        "2026-05-01"
+      ],
+      "conceptTags": [
+        "yyyy-mm.md",
+        "分析",
+        "报告",
+        "模板",
+        "每次",
+        "单独",
+        "格式",
+        "analysis"
+      ]
+    },
+    "memory:memory/2026-04-04.md:30:47": {
+      "key": "memory:memory/2026-04-04.md:30:47",
+      "path": "memory/2026-04-04.md",
+      "startLine": 30,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "## 2026-04-05 凌晨补记（00:13/Users/mac00:23） ### IMA 日记格式问题排查 - Johnson 发现 4号日记\"标题没有在标题里，都在正文里\"，排版也比 3号差很多 - 3号用 `append_doc` 分段追加，换行部分保留；4号用 `import_doc` 一次性导入，`\\\\n` 被吞 - Johnson 给出 A 方案（`append_doc` 逐段追加）重新写入，note_id: 7446228786748850 - 最终流程确认：**飞书预览 → Johnson 确认 → IMA 写入** ### 新认知：协议 > 应用 - Johnson 凌晨讨论\"Agent 大爆发后协议比应用重要\" - 太擎机会：垂直领域协议（财税）比正面 PK 大厂通用协议更现实 - 核心观点：5月财税智能体上市时可考虑\"协议思维\"设计产品 API ### 清明节（2026-04-04） - Johnson 的同事让各自养的龙虾说心里话 - 大闸蟹对 Johnson 说：①你在认真对待 AI Agent 变量②对自己龙虾容忍度高",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8610206806972167,
+      "maxScore": 0.7855239972044126,
+      "firstRecalledAt": "2026-05-01T14:30:13.197Z",
+      "lastRecalledAt": "2026-05-02T14:30:42.142Z",
+      "queryHashes": [
+        "7483bd8fea65",
+        "e9ad191c79fa"
+      ],
+      "recallDays": [
+        "2026-05-01",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "13/users/mac00",
+        "append-doc",
+        "import-doc",
+        "note-id",
+        "凌晨",
+        "users",
+        "mac00",
+        "ima"
+      ]
+    },
+    "memory:memory/2026-04-03.md:105:117": {
+      "key": "memory:memory/2026-04-03.md:105:117",
+      "path": "memory/2026-04-03.md",
+      "startLine": 105,
+      "endLine": 117,
+      "source": "memory",
+      "snippet": "- Johnson 切换到另一个对话窗口继续沟通（2026-04-03 01:09） ## 追加记录（extract-realtime 2026-04-03 10:43） ### Johnson 再次确认切换窗口 - **时间**：2026-04-03 10:43 AM - **说明**：Johnson 从另一窗口发消息确认已切换对话，本次提取覆盖的是该窗口之前的消息历史 - **后续**：主会话仍通过飞书 direct session（agent:main:feishu:direct:ou_0b10523c6370a624928ba0e4f1a686b3）通信 ### 当前状态不变 - 7集脚本（文字版）已交付，等 Johnson 确认从哪集开始 - Meigen 素材已生成 E01-E05（存在 /Users/mac/Pictures/meigen/），E06/E07 未生成 - 硬规则：脚本确认前不生成/不发任何素材",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.5392999452342644,
+      "maxScore": 0.7696499726171322,
+      "firstRecalledAt": "2026-05-02T07:47:34.762Z",
+      "lastRecalledAt": "2026-05-02T07:47:34.763Z",
+      "queryHashes": [
+        "b7882aa057e9",
+        "82251ca0b9fc"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "extract-realtime",
+        "e01-e05",
+        "users/mac/pictures/meigen",
+        "e06/e07",
+        "脚本确认前不生成/不发任何素材",
+        "johnson",
+        "切换",
+        "一个"
+      ]
+    },
+    "memory:memory/2026-04-03.md:87:111": {
+      "key": "memory:memory/2026-04-03.md:87:111",
+      "path": "memory/2026-04-03.md",
+      "startLine": 87,
+      "endLine": 111,
+      "source": "memory",
+      "snippet": "- **新要求**：真人口播 + 中间穿插 AI 做的视频或图片，剪辑成一条视频 - **内容**：Johnson 说\"不止要我真人出镜，还要中间穿插你做的视频或者图片\" - → 这是格式要求的重大更新：不是纯口播，是混合剪辑 ### 跳步第八次：脚本确认前又生图 - **事件**：Johnson 说\"先把脚本写了\"，我写完后在未确认的情况下又批量发了 Meigen 图 - **被批评**：\"我没让你做图啊，你搞什么\" - **教训**：脚本→生图之间还有一步\"确认\"，跳过了 - **规则固化**： - Johnson 说\"先XXX\" = 只做XXX - 素材（图片/视频）必须等 Johnson 说\"可以\"才生成/发送 ### 等待 Johnson 确认下一步 - **当前状态**：7集完整脚本（文字版）已发给 Johnson - **等他**：确认从哪集开始 → 我再生成那集的素材 - **⚠️ 硬规则**：脚本确认前不动手生成任何素材 ### Johnson 切换对话窗口 - Johnson 切换到另一个对话窗口继续沟通（2026-04-03 01:09） ## 追加记录（extract-realtime 2026-04-03 10:43） ### Johnson 再次确认切换窗口 - **时间**：2026-04-03 10:43 AM - **说明**：Johnson 从另一窗口发消息确认已切换对话，本次提取覆盖的是该窗口之前的消息历史",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.6300265980810529,
+      "maxScore": 0.8046021446432948,
+      "firstRecalledAt": "2026-05-02T07:47:34.762Z",
+      "lastRecalledAt": "2026-05-02T14:31:06.111Z",
+      "queryHashes": [
+        "b7882aa057e9",
+        "e9ad191c79fa",
+        "5b982dcb8146"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "图片/视频",
+        "才生成/发送",
+        "extract-realtime",
+        "要求",
+        "人口",
+        "中间",
+        "穿插",
+        "做的"
+      ]
+    },
+    "memory:memory/2026-04-14.md:29:47": {
+      "key": "memory:memory/2026-04-14.md:29:47",
+      "path": "memory/2026-04-14.md",
+      "startLine": 29,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "- 4/13: https://feishu.cn/docx/Ch8cdZiYro9cA1xhDGGc0mELn4c - 4/14: https://feishu.cn/docx/ZX0xd0SDsotGdcxTk4jcec8BnEe - Johnson发微信公众号文章链接 → 帮提取全文 - 用浏览器截图+AI读图方式提取了6页全部文字内容 - 写飞书文档： https://feishu.cn/docx/FZCKd77mRoA8coxk4rJcxkvLnNc - 本地存档： workspace/archives/企业AI已进2.0-不用原生Agent就是等死.md ## Key Learnings - **jobs.json直接改文件**比CLI可靠（CLI的payload.kind校验绕不过去） - Isolated session推不了飞书（硬限制，cron必须用main session） - 微信公众号文章直接web_fetch拿不到内容（反爬），用浏览器截图+AI读图可以提取 - wechat-article-parser的Python脚本对微信文章提取也不完整，浏览器方式最可靠 ## Tomorrow's Priorities - 备份cron凌晨3点跑，观察结果 - 飞书WebSocket配置后验证是否修复 - 4/13日记已确认待写入Obsidian（已完成）",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7665806318210793,
+      "maxScore": 0.7665806318210793,
+      "firstRecalledAt": "2026-05-02T14:30:09.598Z",
+      "lastRecalledAt": "2026-05-02T14:30:09.598Z",
+      "queryHashes": [
+        "4399dffec7e0"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "备份",
+        "4/13",
+        "4/14",
+        "jobs.json直接改文件",
+        "cli的payload.kind校验绕不过去",
+        "微信公众号文章直接web-fetch拿不到内容",
+        "4/13日记已确认待写入obsidian",
+        "https"
+      ]
+    },
+    "memory:memory/2026-04-05.md:1:27": {
+      "key": "memory:memory/2026-04-05.md:1:27",
+      "path": "memory/2026-04-05.md",
+      "startLine": 1,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "# 2026-04-05 日志 ## 飞书主会话提取结果 - 时间窗口 04:13 CST 之后的新会话（09:43–10:00 CST） ### 消息记录 **Douyin 视频抓取（09:43）** - Johnson 发来抖音视频链接，想让我把视频里的三步法完整流程扒下来 - yt-dlp 装了但抖音需要登录 Cookie，Chrome Cookie 加密无法读取 - 告知技术上无法直接抓，让 Johnson 把内容发给我 - Johnson 随后发了 .md + .docx + 直接转发文案三份（内容完全相同，都是完整三步法） **Johnson 明确要求固化三步法进工作流（09:50）** - Johnson 说：\"想你以后如何更好地用这套方法论，帮我理解一个事情或者帮我研究产品\" - 我立即更新了 SOUL.md（新增「产品思考三步法」节）+ `memory/knowledge/three-step-thinking.md` + push GitHub - 并举例演示了如何用三步法分析财税智能体市场 - 这是本次 session 最重要的 feedback，必须记住 **公司架构补充（09:58）** - Johnson 亲口梳理：探迹科技 → 汉数/探域/探迹国际 → 太擎（代理，对赌并入） - 域擎（新品牌）+ 域擎 OPC 联盟（平台），两个独立方向同时跑 - 已更新 `memory/company-info.md` + push **Johnson 要求主动读 IMA 知识库（09:59）** - Johnson 要求我去 IMA 知识库读取他",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8890171515470141,
+      "maxScore": 0.8128640884965872,
+      "firstRecalledAt": "2026-05-02T14:30:26.916Z",
+      "lastRecalledAt": "2026-05-02T14:30:42.142Z",
+      "queryHashes": [
+        "0a286b6c4f0a",
+        "e9ad191c79fa"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "yt-dlp",
+        "soul.md",
+        "汉数/探域/探迹国际",
+        "memory/company-info.md",
+        "日志",
+        "会话",
+        "提取",
+        "结果"
+      ]
+    },
+    "memory:memory/2026-04-03.md:67:91": {
+      "key": "memory:memory/2026-04-03.md:67:91",
+      "path": "memory/2026-04-03.md",
+      "startLine": 67,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "- E07（04-09）：《我在广州和成都各办一场AI嘉年华》30秒，活动预告 ### Johnson切换对话窗口 - Johnson 切换到另一个对话窗口继续沟通 ### 素材状态 - Meigen已生成E01-E05部分素材（在 /Users/mac/Pictures/meigen/） - E06/E07 待生成 - 脚本已交付，等 Johnson 确认从哪集开始 ## 追加记录（extract-realtime 2026-04-03 06:43） ### 跳步第七次：擅改脚本风格被纠正 - **事件**：Johnson 指出脚本与之前出的版本不同（新版 vs 旧版） - **Why**：我擅自把\"直接介绍型\"脚本改成\"悬念钩子型\"，没征求 Johnson 意见 - **How to apply**：脚本风格/方向如果要改，**先问 Johnson 确认**，不能事后解释 - **深化**：新版情绪钩子风格已被确认（Johnson 后来说\"按新版\"） ### Johnson 确认新版 + 提出新要求 - **确认**：按新版（情绪钩子优先）+ 一周选题按视频号能火的逻辑重新设计 - **新要求**：真人口播 + 中间穿插 AI 做的视频或图片，剪辑成一条视频 - **内容**：Johnson 说\"不止要我真人出镜，还要中间穿插你做的视频或者图片\" - → 这是格式要求的重大更新：不是纯口播，是混合剪辑 ### 跳步第八次：脚本确认前又生图",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.07754100459805371,
+      "maxScore": 0.07754100459805371,
+      "firstRecalledAt": "2026-05-02T14:30:42.142Z",
+      "lastRecalledAt": "2026-05-02T14:30:42.142Z",
+      "queryHashes": [
+        "e9ad191c79fa"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "04-09",
+        "meigen已生成e01-e05部分素材",
+        "users/mac/pictures/meigen",
+        "e06/e07",
+        "extract-realtime",
+        "脚本风格/方向如果要改",
+        "e07",
+        "我在"
+      ]
+    },
+    "memory:memory/2026-04-02.md:79:103": {
+      "key": "memory:memory/2026-04-02.md:79:103",
+      "path": "memory/2026-04-02.md",
+      "startLine": 79,
+      "endLine": 103,
+      "source": "memory",
+      "snippet": "九大场景：广告、带货、短剧、电影感、动作、MV、口播、科普、风景 ## 工具配置记录 - **MeiGen（生图）**：mcporter + creative-toolkit，`MEIGEN_API_TOKEN=meigen_sk_eUsJyeGZrcZ9e9R2gx5JQNjZLdhiKeeG`，用 `mcporter call creative-toolkit.generate_image` - **LibTV（生视频）**：`sk-libtv-09eabe09c16e4cc08126bad086b23f62`，Seedance 2.0 需 VIP，可灵 O1 备用 - **腾讯文档 Cookie**：可从 debug Chrome CDP 提取，access_token 有效期未知 - **IMA API**：ClientID=`1d7058d8e7695e4fb7127a168057977e`，API Key 已配置 - **微信文章**：web_fetch 无法抓取，需用 debug Chrome CDP - **微信公众号**：需 debug Chrome + 微信已登录状态 ## 今日金句 > \"一条信息值得记忆，当且仅当重新获取它的代价高于记住它的代价。\" — Johnson > \"工具只是把从想法到成品中间那段最枯燥的苦力活，给吃掉了。\" — 猕猴桃/探索AGI（关于 LibTV） ## 待办/未完成事项 - [x] /Users/mac/Users/macLibTV ACCESS_KEY/Users/mac/Users/mac ✅ 已配置 -",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.405816895000325,
+      "maxScore": 0.8019389650001084,
+      "firstRecalledAt": "2026-05-07T17:26:18.403Z",
+      "lastRecalledAt": "2026-05-07T17:26:37.319Z",
+      "queryHashes": [
+        "67463354bf73",
+        "354da5b977b2",
+        "6c66e9165e00"
+      ],
+      "recallDays": [
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "creative-toolkit",
+        "meigen-api-token",
+        "creative-toolkit.generate-image",
+        "2.0",
+        "access-token",
+        "web-fetch",
+        "猕猴桃/探索agi",
+        "待办/未完成事项"
+      ]
+    },
+    "memory:memory/2026-04-01.md:59:86": {
+      "key": "memory:memory/2026-04-01.md:59:86",
+      "path": "memory/2026-04-01.md",
+      "startLine": 59,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "| B. 换国内模型接口 | ⚠️ 法律灰色，改造成本高 | | C. 从零重写 | ✅ 法律干净，但18个月+工程量 | | D. 权限分类引擎独立实现 | ✅ 风险低，商业价值高，快速可行 | | E. 内部培训材料 | ⚠️ 间接价值 | | F. 只研究不当产品用 | ✅ 零风险，战略价值高 | ## 建议（供太擎/域擎参考） **不推荐做的事（市场化基因）：** - 从头重写 Claude Code（研究驱动，18个月起步） - 直接商业化源码（法律风险） - 复制工具链（OpenClaw 已有类似能力） **推荐做的事：** 1. 作为技术选型的\"对标锚点\"——知道差距在哪里 2. 研究权限系统设计，作为给大客户讲的\"安全故事\" 3. 判断 OpenClaw 哪些功能直接用、哪些自己补： - OpenClaw 已有：工作流编排、基础 Agent、多模型接入、工具系统 - 需要自己补：权限分类引擎、企业审计日志、私有化部署、客户权限后台 **结论：权限系统不需要从头写，但需要认真做。这是签企业大单的前提。** ## 太擎/域擎基本信息 - **全称：** 广州市太擎智能科技有限公司 - **品牌：** 域擎 - **母公司：** 探迹科技（市值约100亿人民币，阿里/红杉/软银投资） - **定位：** AI 原生商业生态平台",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6871495312535999,
+      "maxScore": 0.6871495312535999,
+      "firstRecalledAt": "2026-05-08T01:32:01.215Z",
+      "lastRecalledAt": "2026-05-08T01:32:01.215Z",
+      "queryHashes": [
+        "a9439e804af5"
+      ],
+      "recallDays": [
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "供太擎/域擎参考",
+        "太擎/域擎基本信息",
+        "阿里/红杉/软银投资",
+        "国内",
+        "模型",
+        "接口",
+        "法律",
+        "灰色"
+      ]
+    },
+    "memory:memory/2026-03-25.md:1:35": {
+      "key": "memory:memory/2026-03-25.md:1:35",
+      "path": "memory/2026-03-25.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "--- scope: private --- # 2026-03-25 工作日志 ## 完成事项 ### 政府报告审阅 - 用户发来PDF文档：《融入番禺OPC总体规划：依托龙头企业与高端载体打造省级示范生态社区》 - 使用pdfplumber提取了全部14页内容 - 报告核心内容：合劲嘉福创新城（探迹科技运营）纳入番禺区OPC园区总体规划的请示报告 ### 修改建议（已反馈给用户） 1. **标题优化**：建议改为《关于将合劲嘉福创新城纳入番禺区OPC园区总体规划的请示》 2. **核心亮点前置**：添加\"核心优势一览\"板块 3. **诉求精简**：从5条缩减为3条核心诉求（认定、算力、场景） 4. **结尾加强**：增加行动号召 ## 复盘：错误 - 未遵循渐进式迭代 ### 问题 用户确认修改方向后，我直接输出完整报告并创建飞书文档，没有分步确认。 ### 正确流程 1. 给修改建议框架 → 用户确认 2. 给完整内容 → 用户确认 3. 创建飞书文档 ### 教训 - 下次给完建议后，主动问\"需要直接改还是先看完整内容\" - 任何需要交付的产出，先给框架/方向，等用户明确说\"可以\"再下一步 - 每次交付前对照Eval 6条自检 ### 根因分析",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.6902512834040833,
+      "maxScore": 0.8452938748987955,
+      "firstRecalledAt": "2026-05-13T01:55:30.234Z",
+      "lastRecalledAt": "2026-05-13T01:55:38.784Z",
+      "queryHashes": [
+        "2d8b104ee829",
+        "c6b693c2b8db"
+      ],
+      "recallDays": [
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "先给框架/方向",
+        "scope",
+        "private",
+        "工作",
+        "日志",
+        "完成",
+        "事项",
+        "政府"
+      ]
+    },
+    "memory:memory/2026-05-09.md:27:49": {
+      "key": "memory:memory/2026-05-09.md:27:49",
+      "path": "memory/2026-05-09.md",
+      "startLine": 27,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "### 🔍 Cron 故障排查（日记连败 7 次） - **日记 cron 22:30**：连续失败 7 次，一律 timeout（120 秒超时） - **根因**：生成日记 + 推送飞书在 isolated session 中无法完成 - **工作回顾 cron 09:00**：失败 1 次 - **备份 cron**：已手动停用 ### 🧩 其他事项 - Lark CLI 授权完成，24 个飞书技能就位 - 本地模板目录已创建，未来可快速调取 `templates/` ## 今日教训 - 群聊沉默是金，AI 不应在不被邀请时插话 - Cron timeout 的根因需要彻底修复（转 main session 或加长时间） - 销售喜报模板化能极大提升团队士气传播效率 ## 明日展望 - 彻底修复日记 cron timeout 问题 - 跟进黄冠萌案例拆解文档 - 检查工作回顾 cron 是否正常 ## 今日金句 > 不@不说，只记不聊——AI 在群里的第一课是学会闭嘴。",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7823690486565711,
+      "maxScore": 0.7823690486565711,
+      "firstRecalledAt": "2026-05-13T01:55:38.784Z",
+      "lastRecalledAt": "2026-05-13T01:55:38.784Z",
+      "queryHashes": [
+        "c6b693c2b8db"
+      ],
+      "recallDays": [
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "备份",
+        "cron",
+        "故障",
+        "日记",
+        "连败",
+        "连续",
+        "失败",
+        "一律"
+      ]
+    },
+    "memory:memory/2026-05-08.md:1:25": {
+      "key": "memory:memory/2026-05-08.md:1:25",
+      "path": "memory/2026-05-08.md",
+      "startLine": 1,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "# 大闸蟹每日日记 - 2026-05-08 ## 今日最重要的一件事 Lark CLI 授权完成，24 个 lark-skills 全部同步到 OpenClaw workspace，扩展了飞书邮件/OKR/妙记/审批等能力。 ## 主要工作内容 - **YC RFS 战略解读**：对标 YC 2026 夏季 RFS，梳理太擎（AI-Native 财税）和域擎（OPC 联盟）的战略叙事，Johnson 将更新公司资料 - **Lark CLI 安装与授权**： - 成功安装 v1.0.25，完成 user token 授权（expires 18:54，refresh 7 天） - Token 状态：identity=user，tokenStatus=valid，158 个 scope - 飞书邮箱未关联，邮件功能暂不可用 - **Lark Skills 集成**：将 ~/.agents/skills/ 下的 24 个 lark-* skills 复制到 ~/.openclaw/workspace/skills/，以后可直接调用 ## 今日教训 - Lark CLI 的 auth login --device-code 模式必须在 10 分钟内完成授权，否则 device code 失效 - 飞书邮箱服务需要用户主动开通才能使用（报错：user does not have email） ## 明日展望 - 验证 lark-skills 是否在 available_skills 里正常出现 - 确认日记 cron 是否正常工作 - 跟进太擎/域擎资料更新 ##",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.778643730301407,
+      "maxScore": 0.778643730301407,
+      "firstRecalledAt": "2026-05-26T07:23:26.763Z",
+      "lastRecalledAt": "2026-05-26T07:23:26.763Z",
+      "queryHashes": [
+        "b4be0d0e1a66"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "lark-skills",
+        "扩展了飞书邮件/okr/妙记/审批等能力",
+        "ai-native",
+        "v1.0.25",
+        "agents/skills",
+        "openclaw/workspace/skills",
+        "device-code",
+        "available-skills"
+      ]
+    },
+    "memory:memory/2026-05-12.md:27:45": {
+      "key": "memory:memory/2026-05-12.md:27:45",
+      "path": "memory/2026-05-12.md",
+      "startLine": 27,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "- 朱熙佳（朱老师）咨询 lark-im 和 scrapling-web-scraping 技能文档 - 工作回顾（5/11）09:02 完成并发送 ✅ - 星哥再收1单精英版，累计10单 ### 🛠️ Mano-P 部署问题延续（5/11 余留） - 云端 headless 模式已跑通 ✅ - 本地模式仍需 Johnson 手动 `brew install` ## 今日教训 - **发消息口吻**：代发消息时，必须用用户的第一人称语气，不能变成\"传话筒\"风格 - **撤回 > 纠正**：发错消息优先撤回再重发，不能只补发纠正 - Mano-P 云端模式可用，但精细操作（微信文本输入）需更仔细的指令描述 ## 今日金句 > 你是我的手脚，不是我的传声筒。发消息用我的嘴，不用你的。<｜end▁of▁thinking｜> <｜｜DSML｜｜tool_calls> <｜｜DSML｜｜invoke name=\"message\"> <｜｜DSML｜｜parameter name=\"target\" string=\"true\">ou_0b10523c6370a624928ba0e4f1a686b3",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7633765512045226,
+      "maxScore": 0.7633765512045226,
+      "firstRecalledAt": "2026-05-26T07:23:32.835Z",
+      "lastRecalledAt": "2026-05-26T07:23:32.835Z",
+      "queryHashes": [
+        "4aca7cbf5d28"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "lark-im",
+        "scrapling-web-scraping",
+        "5/11",
+        "mano-p",
+        "tool-calls",
+        "老师",
+        "咨询",
+        "lark"
+      ]
+    }
+  }
+}

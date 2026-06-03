@@ -47,7 +47,10 @@ Things like:
 - 说"今天/明天/昨天"之前，**必须**执行 `date` 命令或 `session_status` 验证实际时间
 - metadata 里的时间只代表"消息发送时间"，不代表 AI 的真实感知时间
 
-## ⚠️ 升级规则（2026-04-22）
+## 模型切换规则（2026-05-18 更新）
+- **默认模型** → MiniMax M2.7-Lightning（Johnson 明确要求：不指定 DeepSeek 时一律用 MiniMax）
+- **编程/写代码** → Johnson 指定时才切 DeepSeek V4 Flash
+- 切换方式：当前 session 用 session_status model=xxx 立即生效；永久切换需改 openclaw.json + 重启 gateway
 - OpenClaw 升级必须经过 Johnson 确认，不能自己跑
 - 当前版本：2026.4.9（通过 npm 安装，LaunchAgent：`ai.openclaw.gateway.new`）
 
@@ -88,12 +91,13 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
-## IMA 知识库（2026-04-09 配置）
+## IMA 知识库（2026-04-09 配置，2026-04-23 更新凭证）
 - **Skill 位置**：`~/.openclaw/workspace/skills/ima-skill-new/`
 - **凭证**：`~/.config/ima/`（client_id / api_key）
 - **Client ID**：`1d7058d8e7695e4fb7127a168057977e`
-- **API Key**：`5TOHGerHK7cqsvFSHCVUC79w4JwlBa4gZJZVBwmcdk31qUA3XQXX4JJtw+x7LwuagRNzr6GeSQ==`
+- **API Key**（2026-04-04 更新）：`zPNjZeSZJzBVSZ6vanl+/0Dk4khuUaBUFRQaN2/bffjMVjBB2cCWxzh3HLNWA9rey88sTUe3+Q==`
 - **验证状态**：✅ 连接正常
+- ⚠️ 旧凭证（`5TOHGerHK7cqsvFSH...`）已废弃，以本条为准
 
 ---
 
@@ -123,3 +127,21 @@ Add whatever helps you do your job. This is your cheat sheet.
   3. `screenshot` 截图 → 用 `image` 工具提取画面文字
   4. 配合 `browser action=act` 做点击/滚动等交互
 - **注意**：抖音 JS 渲染，直接 curl 抓 HTML 无效，必须走浏览器法
+
+## Mano-P — 桌面 GUI 自动化（2026-05-11 内化）
+- **来源**：明略科技开源，微信文章 → Johnson 要求内化
+- **项目**：https://github.com/Mininglamp-AI/Mano-P
+- **本质**：纯视觉 GUI-VLA 模型，像人一样看屏幕截图操作桌面软件
+- **核心能力**：不依赖 CDP/DOM/API，纯视觉驱动，支持桌面软件+浏览器+3D应用
+- **本地模式**：M4+32GB Mac，数据不出设备，断网也能跑
+- **OSWorld 专项第一**：72B 成功率 58.2%，比第二高 13.2pp
+- **Skill 已安装**：`~/.openclaw/workspace/skills/mano-cua/`（来自 ClawHub）
+- **二进制安装**：`brew install Mininglamp-AI/tap/mano-cua`（需 Johnson 手动安装，沙箱无 GitHub 访问）
+- **使用**：`mano-cua run "任务描述" --local`（本地）或 `mano-cua run "任务描述"`（云端）
+- **安装流程**：`mano-cua check` → `mano-cua install-sdk` → `mano-cua install-model`
+- **CLI 更多参数**：`--app` 打开指定应用、`--url` 打开指定网页、`--minimize` 最小化面板、`--max-steps` 限制步数
+- **大闸蟹可以这样调用**：`python3 /tmp/mano_headless.py "任务描述"`（headless云模式，已验证可用 ✅）
+- **二进制安装**：`brew install Mininglamp-AI/tap/mano-cua`（需手动，GUI 在 exec 沙箱不可用，SIGKILL）
+- **安装流程**：`mano-cua check` → `mano-cua install-sdk` → `mano-cua install-model`
+- **与 OpenClaw 关系**：互补 — OpenClaw 擅长结构化工具调用，Mano-P 擅长桌面 GUI 操控
+- ⚠️ 本地模式需 Python 3.13 venv（当前环境 3.9.6，需修复）

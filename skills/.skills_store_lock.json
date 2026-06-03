@@ -228,6 +228,12 @@
       "zip_url": "https://lightmake.site/api/v1/download?slug=openclaw-anything",
       "source": "skillhub",
       "version": "2.0.0"
+    },
+    "scrapling-web-scraping": {
+      "name": "Scrapling MCP",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=scrapling-web-scraping",
+      "source": "skillhub",
+      "version": "1.2.0"
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "chats": [
+    {"chat_id": "oc_bda9eb63f7c1f59bcedb44b84d8a9fef", "name": "广州太擎opc全员群", "type": "group"},
+    {"chat_id": "oc_ac837cdb3fa033ae89ba34ad6fa67ce2", "name": "广太大中台", "type": "group"},
+    {"chat_id": "oc_d71d1e00bbd5c5e47fd7ef7c12770478", "name": "广太养虾场", "type": "group"},
+    {"chat_id": "oc_318b873c0b82f03539c07105176be54d", "name": "张承中的claw助手群", "type": "group"},
+    {"chat_id": "oc_a8e8d101062466423b96210bd4201e51", "name": "广州太擎opc市级公司群", "type": "group"},
+    {"chat_id": "oc_f86e8b1b2f9d75fbf5be153ff901c115", "name": "广州太擎opc社区", "type": "group"},
+    {"chat_id": "oc_d0a32c96818588653f09e2f36c09348d", "name": "广州太擎opc公会", "type": "group"},
+    {"chat_id": "oc_c864292aaed2234abe43ce96f544ac75", "name": "Johnson龙虾群", "type": "group"},
+    {"chat_id": "oc_1a601a4c394b0b870e0a33109c63116f", "name": "域擎智能运营中台", "type": "group"},
+    {"chat_id": "oc_bbc18cbef48ad3f3618cb685c4ba9d4b", "name": "安宁等多人大私聊", "type": "p2p"},
+    {"chat_id": "oc_53b92429e5bcd2725329855fa4f7af47", "name": "渠道管理中心", "type": "group"},
+    {"chat_id": "oc_b46ae326eb17b66b6727c7a5a1a346cd", "name": "产品开发中心", "type": "group"},
+    {"chat_id": "oc_17e3b15735c55f67f6c71e8599f8300e", "name": "唐韬/安宁/张承中私聊", "type": "p2p"},
+    {"chat_id": "oc_c9f9c9eb5a200ca529170a9b9d463334", "name": "OPC 投流", "type": "group"},
+    {"chat_id": "oc_573e4d6f7a273d98698b8df59a371c7b", "name": "提高成交率项目组", "type": "group"}
+  ],
+  "last_updated": "2026-05-21T09:34:00+08:00",
+  "note": "通过 lark-cli im +chat-list 自动发现，定期更新"
+}

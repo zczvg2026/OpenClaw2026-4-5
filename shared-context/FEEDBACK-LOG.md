@@ -39,12 +39,29 @@
 
 ---
 
-*最后更新：2026-04-02*
-
----
-
 **教训2（2026-04-02）：记忆存在但未激活**
 - 错误：memory/2026-04-01.md 里有 Claude Code 泄露的完整路径，但今天 Johnson 再提时没有关联，直接让他重新说路径
 - 根因：semantic search 有结果，但模型没有把"话题词"和"已有记忆文件"主动串联
 - 解法：WAL Protocol 加触发项——事件/项目名被提到时，立即查 memory/ 相关文件
 - 来源：memory/2026-04-01.md（失败记录章节）
+
+---
+
+**教训3（2026-04-27）：isolated cron 无法主动发飞书**
+- 错误：日记 cron 连续 4 天 error，状态一直显示 error
+- 根因：cron 用 isolated session，不知道发给谁。报错 "Delivering to Feishu requires target <chatId|user:openId>"
+- 解法：在 jobs.json 的 delivery 字段里加 target: "user:ou_0b10523c6370a624928ba0e4f1a686b3"
+- 来源：日记 cron 故障排查，/Users/mac/.openclaw/cron/jobs.json
+
+---
+
+**教训4（2026-04-27）：做完工作要主动汇报**
+- 错误：清理冗余文件时做了很多，但没有及时告知 Johnson
+- 正确做法：每完成一项任务，立即告知 Johnson 进展和结果
+- 来源：Johnson 反馈
+
+---
+
+*最后更新：2026-04-27*
+
+---

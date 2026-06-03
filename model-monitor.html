@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Model Monitor</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      margin-bottom: 32px;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #1d1d1f;
+      letter-spacing: -0.5px;
+    }
+    .header p {
+      font-size: 14px;
+      color: #86868b;
+      margin-top: 4px;
+    }
+
+    /* Connection status */
+    .conn-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #86868b;
+      margin-bottom: 24px;
+    }
+    .conn-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ffd60a;
+    }
+    .conn-dot.connected { background: #34c759; }
+    .conn-dot.error { background: #ff3b30; }
+
+    /* Card */
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 24px 28px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+    }
+    .card-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: #86868b;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 20px;
+    }
+
+    /* Metric grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    @media (min-width: 600px) {
+      .metrics-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+    .metric-item { text-align: center; }
+    .metric-value {
+      font-size: 32px;
+      font-weight: 600;
+      color: #1d1d1f;
+      line-height: 1;
+    }
+    .metric-label {
+      font-size: 11px;
+      color: #86868b;
+      margin-top: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    /* Progress bar */
+    .progress-section { margin-top: 24px; }
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .progress-header span {
+      font-size: 13px;
+      color: #1d1d1f;
+      font-weight: 500;
+    }
+    .progress-header .pct {
+      font-size: 13px;
+      color: #86868b;
+    }
+    .progress-track {
+      height: 6px;
+      background: #e8e8ed;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #007aff, #5ac8fa);
+      border-radius: 3px;
+      transition: width 0.6s ease;
+    }
+
+    /* Model info */
+    .model-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-top: 1px solid #e8e8ed;
+    }
+    .model-row:first-of-type { border-top: none; }
+    .model-name {
+      font-size: 14px;
+      font-weight: 500;
+      color: #1d1d1f;
+    }
+    .model-label {
+      font-size: 12px;
+      color: #86868b;
+    }
+    .model-tokens {
+      font-size: 13px;
+      color: #1d1d1f;
+      font-weight: 500;
+    }
+
+    /* Totals card */
+    .totals-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    @media (min-width: 600px) {
+      .totals-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+    .total-item {}
+    .total-label { font-size: 11px; color: #86868b; text-transform: uppercase; letter-spacing: 0.3px; margin-bottom: 4px; }
+    .total-value { font-size: 20px; font-weight: 600; color: #1d1d1f; }
+
+    /* Daily chart */
+    .chart-container {
+      margin-top: 20px;
+      height: 120px;
+      display: flex;
+      align-items: flex-end;
+      gap: 4px;
+    }
+    .chart-bar-wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      height: 100%;
+      justify-content: flex-end;
+    }
+    .chart-bar {
+      width: 100%;
+      border-radius: 3px 3px 0 0;
+      background: linear-gradient(180deg, #007aff, #a8c7fa);
+      min-height: 2px;
+      transition: height 0.4s ease;
+    }
+    .chart-bar-label {
+      font-size: 9px;
+      color: #86868b;
+    }
+
+    /* Last update */
+    .last-update {
+      text-align: center;
+      font-size: 11px;
+      color: #c7c7cc;
+      margin-top: 16px;
+    }
+
+    /* Error banner */
+    .error-banner {
+      background: #fff;
+      border-radius: 18px;
+      padding: 20px 24px;
+      text-align: center;
+      color: #ff3b30;
+      font-size: 14px;
+      margin-bottom: 16px;
+      display: none;
+    }
+
+    /* Mini sparkline */
+    .sparkline-canvas {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>Model Monitor</h1>
+    <p>OpenClaw Gateway · 实时消耗追踪</p>
+  </div>
+
+  <div class="conn-status" id="connStatus">
+    <div class="conn-dot" id="connDot"></div>
+    <span id="connText">连接中…</span>
+  </div>
+
+  <div class="error-banner" id="errorBanner"></div>
+
+  <!-- Active Session -->
+  <div class="card">
+    <div class="card-title">当前会话</div>
+    <div class="metrics-grid">
+      <div class="metric-item">
+        <div class="metric-value" id="mInput">—</div>
+        <div class="metric-label">Input Tokens</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value" id="mOutput">—</div>
+        <div class="metric-label">Output Tokens</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value" id="mCacheR">—</div>
+        <div class="metric-label">Cache Read</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value" id="mTotal">—</div>
+        <div class="metric-label">Total Tokens</div>
+      </div>
+    </div>
+
+    <div class="progress-section">
+      <div class="progress-header">
+        <span id="progressModel">—</span>
+        <span class="pct" id="progressPct">—</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill" style="width:0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Model List -->
+  <div class="card">
+    <div class="card-title">会话列表</div>
+    <div id="sessionList">
+      <div style="color:#86868b;font-size:13px;text-align:center;padding:20px">加载中…</div>
+    </div>
+  </div>
+
+  <!-- 31 Day Totals -->
+  <div class="card">
+    <div class="card-title">近 31 天累计</div>
+    <div class="totals-grid">
+      <div class="total-item">
+        <div class="total-label">Input</div>
+        <div class="total-value" id="tInput">—</div>
+      </div>
+      <div class="total-item">
+        <div class="total-label">Output</div>
+        <div class="total-value" id="tOutput">—</div>
+      </div>
+      <div class="total-item">
+        <div class="total-label">Cache Read</div>
+        <div class="total-value" id="tCacheR">—</div>
+      </div>
+      <div class="total-item">
+        <div class="total-label">Total</div>
+        <div class="total-value" id="tTotal">—</div>
+      </div>
+    </div>
+    <div class="chart-container" id="chartContainer"></div>
+  </div>
+
+  <div class="last-update" id="lastUpdate">—</div>
+</div>
+
+<script>
+(function () {
+  const GW_URL = 'ws://localhost:18789';
+  const TOKEN = '237f4b8b20f2f6d13e71de9fd00edce533ec59a714d58e69';
+
+  let ws = null;
+  let reqId = 0;
+  let pendingReqs = {};
+  let reconnectTimer = null;
+  let refreshTimer = null;
+  let connected = false;
+  let deviceIdentity = null;
+
+  // ── Helpers ─────────────────────────────────────────────
+  function fmt(n) {
+    if (n == null || n === '') return '—';
+    n = Number(n);
+    if (n >= 1e6) return (n / 1e6).toFixed(2) + 'M';
+    if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+    return n.toLocaleString();
+  }
+
+  function set(id, text) {
+    document.getElementById(id).textContent = text;
+  }
+
+  function showError(msg) {
+    const el = document.getElementById('errorBanner');
+    el.textContent = msg;
+    el.style.display = 'block';
+  }
+
+  function clearError() {
+    document.getElementById('errorBanner').style.display = 'none';
+  }
+
+  function setConn(connected, text) {
+    const dot = document.getElementById('connDot');
+    dot.className = 'conn-dot' + (connected ? ' connected' : '');
+    document.getElementById('connText').textContent = text;
+  }
+
+  // ── WebSocket ────────────────────────────────────────────
+  function connect() {
+    if (ws) { try { ws.close(); } catch {} }
+
+    ws = new WebSocket(GW_URL);
+
+    ws.onopen = async () => {
+      clearError();
+      setConn(false, '验证中…');
+      // Device auth handshake
+      await sendRaw({ type: 'connect', nonce: '' }).catch(() => {});
+      // Try token auth directly
+      sendRpc('status', {}).then(() => {
+        connected = true;
+        setConn(true, '已连接');
+        scheduleRefresh();
+      }).catch(() => {
+        // Fallback: connect with token
+        connectWithToken();
+      });
+    };
+
+    ws.onmessage = (evt) => {
+      let frame;
+      try { frame = JSON.parse(evt.data); } catch { return; }
+      handleFrame(frame);
+    };
+
+    ws.onerror = () => {
+      showError('WebSocket 连接失败，请确认 Gateway 在 localhost:18789 运行');
+      setConn(false, '连接失败');
+    };
+
+    ws.onclose = () => {
+      connected = false;
+      setConn(false, '断开了');
+      clearTimeout(reconnectTimer);
+      reconnectTimer = setTimeout(connect, 4000);
+    };
+  }
+
+  function connectWithToken() {
+    if (!ws || ws.readyState !== WebSocket.OPEN) return;
+    // Send connect frame with token auth
+    sendRaw({
+      type: 'connect',
+      params: {
+        auth: { token: TOKEN },
+        role: 'operator',
+        scopes: ['operator.read', 'operator.write', 'operator.admin', 'operator.approvals', 'operator.pairing'],
+        client: { id: 'model-monitor', mode: 'backend' },
+        minProtocol: 3, maxProtocol: 3
+      }
+    }).then(() => {
+      connected = true;
+      setConn(true, '已连接');
+      scheduleRefresh();
+    }).catch(() => {
+      setConn(false, '认证失败');
+    });
+  }
+
+  function handleFrame(frame) {
+    if (frame.type === 'req') {
+      // We don't send requests first, so ignore
+    } else if (frame.type === 'res') {
+      const p = pendingReqs[frame.id];
+      if (p) {
+        clearTimeout(p.timeout);
+        delete pendingReqs[frame.id];
+        if (frame.error) p.reject(new Error(frame.error.message || JSON.stringify(frame.error)));
+        else p.resolve(frame.result || {});
+      }
+    } else if (frame.type === 'hello') {
+      connected = true;
+      setConn(true, '已连接');
+      scheduleRefresh();
+    }
+  }
+
+  function sendRaw(obj) {
+    return new Promise((resolve, reject) => {
+      if (!ws || ws.readyState !== WebSocket.OPEN) {
+        reject(new Error('not connected'));
+        return;
+      }
+      ws.send(JSON.stringify(obj));
+      resolve();
+    });
+  }
+
+  function sendRpc(method, params) {
+    return new Promise((resolve, reject) => {
+      if (!ws || ws.readyState !== WebSocket.OPEN) {
+        reject(new Error('not connected'));
+        return;
+      }
+      const id = 'req_' + (++reqId);
+      const frame = { type: 'req', id, method, params };
+      const timeout = setTimeout(() => {
+        delete pendingReqs[id];
+        reject(new Error('timeout'));
+      }, 10000);
+      pendingReqs[id] = { resolve, reject, timeout };
+      ws.send(JSON.stringify(frame));
+    });
+  }
+
+  // ── Refresh ─────────────────────────────────────────────
+  function scheduleRefresh() {
+    clearTimeout(refreshTimer);
+    refreshTimer = setTimeout(refresh, 3000);
+  }
+
+  async function refresh() {
+    if (!connected) return;
+    try {
+      const [statusData, usageData] = await Promise.all([
+        sendRpc('status', {}).catch(() => ({})),
+        sendRpc('usage-cost', { days: 31 }).catch(() => ({ totals: {}, daily: [] }))
+      ]);
+
+      renderStatus(statusData);
+      renderUsage(usageData);
+
+      document.getElementById('lastUpdate').textContent =
+        '更新于 ' + new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    } catch (e) {
+      console.error('refresh error', e);
+    }
+    scheduleRefresh();
+  }
+
+  // ── Render Status ───────────────────────────────────────
+  function renderStatus(data) {
+    const sessions = data?.sessions?.recent || [];
+    if (sessions.length === 0) {
+      set('mInput', '—'); set('mOutput', '—');
+      set('mCacheR', '—'); set('mTotal', '—');
+      set('progressModel', '无活动会话'); set('progressPct', '');
+      document.getElementById('progressFill').style.width = '0%';
+      document.getElementById('sessionList').innerHTML =
+        '<div style="color:#86868b;font-size:13px;text-align:center;padding:20px">暂无会话</div>';
+      return;
+    }
+
+    // Primary session = most recent with token data
+    const primary = sessions.find(s => s.totalTokens != null) || sessions[0];
+
+    set('mInput', fmt(primary.inputTokens));
+    set('mOutput', fmt(primary.outputTokens));
+    set('mCacheR', fmt(primary.cacheRead));
+    set('mTotal', fmt(primary.totalTokens));
+
+    const pct = primary.percentUsed || 0;
+    set('progressModel', primary.model || '—');
+    set('progressPct', pct + '%');
+    document.getElementById('progressFill').style.width = pct + '%';
+
+    // Session list
+    const list = document.getElementById('sessionList');
+    const rows = sessions.map(s => {
+      const key = s.key || '';
+      const label = key.includes('feishu:direct') ? '飞书私聊'
+        : key.includes('feishu:group') ? '飞书群组'
+        : key.includes('subagent') ? '子任务'
+        : key.includes('cron') ? '定时任务'
+        : key.includes('main:main') ? '主会话'
+        : '会话';
+      const age = s.age ? Math.round(s.age / 1000) : 0;
+      const ageStr = age < 60 ? age + '秒前' : age < 3600 ? Math.floor(age / 60) + '分钟前' : Math.floor(age / 3600) + '小时前';
+      return `
+        <div class="model-row">
+          <div>
+            <div class="model-name">${s.model || '—'}</div>
+            <div class="model-label">${label} · ${ageStr}</div>
+          </div>
+          <div style="text-align:right">
+            <div class="model-tokens">${fmt(s.totalTokens)}</div>
+            <div class="model-label">${pctStr(s)}</div>
+          </div>
+        </div>`;
+    }).join('');
+    list.innerHTML = rows;
+  }
+
+  function pctStr(s) {
+    if (s.percentUsed == null) return '无数据';
+    return s.percentUsed + '% 上下文';
+  }
+
+  // ── Render Usage ─────────────────────────────────────────
+  function renderUsage(data) {
+    const t = data?.totals || {};
+    set('tInput', fmt(t.input));
+    set('tOutput', fmt(t.output));
+    set('tCacheR', fmt(t.cacheRead));
+    set('tTotal', fmt(t.totalTokens));
+
+    // Chart
+    const daily = data?.daily || [];
+    if (daily.length > 0) {
+      const maxTotal = Math.max(...daily.map(d => d.totalTokens || 0), 1);
+      const container = document.getElementById('chartContainer');
+      container.innerHTML = daily.slice(-14).map(d => {
+        const h = d.totalTokens ? Math.max(4, (d.totalTokens / maxTotal) * 100) : 4;
+        const label = d.date ? d.date.slice(5) : '';
+        return `<div class="chart-bar-wrap">
+          <div class="chart-bar" style="height:${h}px"></div>
+          <div class="chart-bar-label">${label}</div>
+        </div>`;
+      }).join('');
+    }
+  }
+
+  // ── Start ────────────────────────────────────────────────
+  connect();
+})();
+</script>
+</body>
+</html>

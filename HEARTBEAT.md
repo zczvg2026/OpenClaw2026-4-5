@@ -37,7 +37,7 @@
 3. 收到确认后，写入 Obsidian（`日记/YYYY-MM-DD.md`）
 4. 同时推飞书文档一篇
 
-**日记存储路径：** `/Users/mac/Documents/Obsidian Vault/大闸蟹日记/YYYY-MM-DD.md`
+**日记存储路径：** `/Users/mac/Documents/Obsidian Vault/0-raw/大闸蟹日记/YYYY-MM-DD.md`
 
 **格式标准：** 见下方「日记格式标准」章节（2026-04-12 确认）
 
@@ -79,6 +79,23 @@ tags: [日记, 每日]
 - 列表用 `-` Bullet
 - 金句用 `>` 引言块
 - 写完后推 Obsidian `大闸蟹日记/` 文件夹
+
+---
+
+## 失败轨迹自动蒸馏（2026-05-01 确认）
+
+每 **3 次心跳**（约 1.5 小时），自动运行一次 distill 扫描：
+
+```bash
+python3 ~/.openclaw/workspace/.learnings/distill.py --scan
+```
+
+**执行规则：**
+- 发现失败轨迹 → 写入 `.learnings/distill/` → 在心跳回复末尾加一句"已自动记录 X 条教训"
+- 未发现 → 不说话（静默）
+- 每次扫描后重置计数
+
+**计数追踪：** `memory/heartbeat-state.json` 的 `heartbeatCount` 字段
 
 ---
 

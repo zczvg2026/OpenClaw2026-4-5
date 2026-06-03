@@ -1,0 +1,19 @@
+{
+  "access_token": "u-7_3n0bqA9bAX5jOHLHBtSN14k0O4l0Arii2amMU022jU",
+  "refresh_token": "ur-4JKmrkXLheoEaOn3cqgWn414kGOAl0IrNy2a6xY0232E",
+  "token_type": "Bearer",
+  "expires_in": 6900,
+  "refresh_expires_in": 2591700,
+  "scope": "auth:user.id:read contact:user.id:readonly im:chat im:chat:readonly im:message im:message:readonly",
+  "open_id": "ou_0b10523c6370a624928ba0e4f1a686b3",
+  "union_id": "on_857d87fdbcf884d9b9b11ccaf4a2a2e9",
+  "user_id": "f55fc3fc",
+  "name": "张承中",
+  "en_name": "张承中",
+  "tenant_key": "14939f98687ad75f",
+  "sid": "AAAAAAAAAABpy0/1ngAMvA==",
+  "expires_at": 1780296743,
+  "refresh_expires_at": 1782881543,
+  "authorized_at": 1780289843,
+  "note": "手动保存：2026-06-01 12:56，OAuth v1/authorize + v1/access_token 流程成功"
+}

@@ -1,0 +1,41 @@
+{
+  "_schema": "1.0",
+  "description": "大闸蟹运行配置，改文件即生效（ConfigCenter 两层配置模式）",
+
+  "checkpoint": {
+    "enabled": true,
+    "dir": "checkpoints",
+    "autoCleanDays": 7
+  },
+
+  "memory": {
+    "cursorEnabled": true,
+    "consolidateOnHeartbeat": true,
+    "cursorFile": ".auto-memory/CURSOR.md"
+  },
+
+  "parallel": {
+    "enabled": true,
+    "maxConcurrent": 3
+  },
+
+  "error": {
+    "friendlyResponse": true,
+    "retryOnFail": true,
+    "maxRetries": 3
+  },
+
+  "logging": {
+    "skillUsage": true,
+    "toolCalls": true,
+    "checkpoints": true
+  },
+
+  "prompt": {
+    "sectionBased": true,
+    "alwaysCheck": [
+      "SOUL.md",
+      "AGENTS.md"
+    ]
+  }
+}

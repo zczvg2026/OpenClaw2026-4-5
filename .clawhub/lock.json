@@ -348,6 +348,18 @@
     "summarize-pro": {
       "version": "1.0.0",
       "installedAt": 1775331305954
+    },
+    "scrapling-web-scraping": {
+      "version": "1.2.0",
+      "installedAt": 1778567623243
+    },
+    "lossless-claw": {
+      "version": "1.0.1",
+      "installedAt": 1777734854652
+    },
+    "mano-cua": {
+      "version": "1.0.15",
+      "installedAt": 1778507838302
     }
   }
 }
