@@ -38,3 +38,7 @@ package-lock.json
 
 # OS
 .DS_Store
+
+# 本地备份快照（workspace-backup.sh 生成）
+.backups/
+.backup/
